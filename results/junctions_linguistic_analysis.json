@@ -1,0 +1,1082 @@
+{
+  "moondream": {
+    "paraphrase_consistency": {
+      "JN_P_01": {
+        "consistent": 158,
+        "total": 168,
+        "pct": 94.0
+      },
+      "JN_P_02": {
+        "consistent": 158,
+        "total": 280,
+        "pct": 56.4
+      },
+      "JN_P_03": {
+        "consistent": 162,
+        "total": 279,
+        "pct": 58.1
+      },
+      "JN_P_05": {
+        "consistent": 182,
+        "total": 244,
+        "pct": 74.6
+      },
+      "JN_P_07": {
+        "consistent": 99,
+        "total": 155,
+        "pct": 63.9
+      },
+      "JN_P_08": {
+        "consistent": 131,
+        "total": 194,
+        "pct": 67.5
+      },
+      "JN_A_01": {
+        "consistent": 162,
+        "total": 162,
+        "pct": 100.0
+      },
+      "JN_A_02": {
+        "consistent": 232,
+        "total": 232,
+        "pct": 100.0
+      },
+      "JN_A_04": {
+        "consistent": 10,
+        "total": 115,
+        "pct": 8.7
+      },
+      "JN_A_06": {
+        "consistent": 26,
+        "total": 207,
+        "pct": 12.6
+      },
+      "JN_H_01": {
+        "consistent": 231,
+        "total": 232,
+        "pct": 99.6
+      },
+      "JN_H_02": {
+        "consistent": 242,
+        "total": 253,
+        "pct": 95.7
+      },
+      "JN_S_01": {
+        "consistent": 188,
+        "total": 256,
+        "pct": 73.4
+      },
+      "JN_S_03": {
+        "consistent": 36,
+        "total": 76,
+        "pct": 47.4
+      },
+      "JN_S_04": {
+        "consistent": 12,
+        "total": 182,
+        "pct": 6.6
+      },
+      "JN_S_05": {
+        "consistent": 34,
+        "total": 65,
+        "pct": 52.3
+      },
+      "JN_ADV_01": {
+        "consistent": 96,
+        "total": 110,
+        "pct": 87.3
+      },
+      "JN_ADV_02": {
+        "consistent": 0,
+        "total": 0,
+        "pct": null
+      },
+      "JN_ADV_03": {
+        "consistent": 149,
+        "total": 280,
+        "pct": 53.2
+      },
+      "JN_ADV_04": {
+        "consistent": 44,
+        "total": 280,
+        "pct": 15.7
+      },
+      "JN_A_05": {
+        "consistent": 59,
+        "total": 108,
+        "pct": 54.6
+      }
+    },
+    "negation_accuracy": {
+      "JN_P_01": {
+        "correct": 84,
+        "total": 84,
+        "pct": 100.0
+      },
+      "JN_P_02": {
+        "correct": 70,
+        "total": 93,
+        "pct": 75.3
+      },
+      "JN_P_03": {
+        "correct": 100,
+        "total": 140,
+        "pct": 71.4
+      },
+      "JN_P_05": {
+        "correct": 17,
+        "total": 122,
+        "pct": 13.9
+      },
+      "JN_P_07": {
+        "correct": 19,
+        "total": 46,
+        "pct": 41.3
+      },
+      "JN_P_08": {
+        "correct": 1,
+        "total": 4,
+        "pct": 25.0
+      },
+      "JN_A_01": {
+        "correct": 23,
+        "total": 62,
+        "pct": 37.1
+      },
+      "JN_A_02": {
+        "correct": 103,
+        "total": 116,
+        "pct": 88.8
+      },
+      "JN_A_04": {
+        "correct": 0,
+        "total": 82,
+        "pct": 0.0
+      },
+      "JN_A_06": {
+        "correct": 104,
+        "total": 104,
+        "pct": 100.0
+      },
+      "JN_H_01": {
+        "correct": 81,
+        "total": 116,
+        "pct": 69.8
+      },
+      "JN_H_02": {
+        "correct": 112,
+        "total": 140,
+        "pct": 80.0
+      },
+      "JN_S_01": {
+        "correct": 2,
+        "total": 8,
+        "pct": 25.0
+      },
+      "JN_S_03": {
+        "correct": 20,
+        "total": 37,
+        "pct": 54.1
+      },
+      "JN_S_04": {
+        "correct": 0,
+        "total": 17,
+        "pct": 0.0
+      },
+      "JN_S_05": {
+        "correct": 59,
+        "total": 60,
+        "pct": 98.3
+      },
+      "JN_ADV_01": {
+        "correct": 55,
+        "total": 55,
+        "pct": 100.0
+      },
+      "JN_ADV_02": {
+        "correct": 0,
+        "total": 0,
+        "pct": null
+      },
+      "JN_ADV_03": {
+        "correct": 140,
+        "total": 140,
+        "pct": 100.0
+      },
+      "JN_ADV_04": {
+        "correct": 1,
+        "total": 140,
+        "pct": 0.7
+      },
+      "JN_A_05": {
+        "correct": 0,
+        "total": 54,
+        "pct": 0.0
+      }
+    }
+  },
+  "paligemma": {
+    "paraphrase_consistency": {
+      "JN_P_01": {
+        "consistent": 142,
+        "total": 168,
+        "pct": 84.5
+      },
+      "JN_P_02": {
+        "consistent": 170,
+        "total": 280,
+        "pct": 60.7
+      },
+      "JN_P_03": {
+        "consistent": 129,
+        "total": 279,
+        "pct": 46.2
+      },
+      "JN_P_05": {
+        "consistent": 192,
+        "total": 244,
+        "pct": 78.7
+      },
+      "JN_P_07": {
+        "consistent": 93,
+        "total": 182,
+        "pct": 51.1
+      },
+      "JN_P_08": {
+        "consistent": 71,
+        "total": 263,
+        "pct": 27.0
+      },
+      "JN_A_01": {
+        "consistent": 87,
+        "total": 156,
+        "pct": 55.8
+      },
+      "JN_A_02": {
+        "consistent": 130,
+        "total": 209,
+        "pct": 62.2
+      },
+      "JN_A_04": {
+        "consistent": 79,
+        "total": 140,
+        "pct": 56.4
+      },
+      "JN_A_06": {
+        "consistent": 102,
+        "total": 230,
+        "pct": 44.3
+      },
+      "JN_H_01": {
+        "consistent": 170,
+        "total": 199,
+        "pct": 85.4
+      },
+      "JN_H_02": {
+        "consistent": 122,
+        "total": 201,
+        "pct": 60.7
+      },
+      "JN_S_01": {
+        "consistent": 176,
+        "total": 274,
+        "pct": 64.2
+      },
+      "JN_S_03": {
+        "consistent": 118,
+        "total": 276,
+        "pct": 42.8
+      },
+      "JN_S_04": {
+        "consistent": 9,
+        "total": 182,
+        "pct": 4.9
+      },
+      "JN_S_05": {
+        "consistent": 88,
+        "total": 113,
+        "pct": 77.9
+      },
+      "JN_ADV_01": {
+        "consistent": 89,
+        "total": 105,
+        "pct": 84.8
+      },
+      "JN_ADV_02": {
+        "consistent": 75,
+        "total": 91,
+        "pct": 82.4
+      },
+      "JN_ADV_03": {
+        "consistent": 153,
+        "total": 279,
+        "pct": 54.8
+      },
+      "JN_ADV_04": {
+        "consistent": 162,
+        "total": 280,
+        "pct": 57.9
+      },
+      "JN_A_05": {
+        "consistent": 37,
+        "total": 136,
+        "pct": 27.2
+      }
+    },
+    "negation_accuracy": {
+      "JN_P_01": {
+        "correct": 25,
+        "total": 84,
+        "pct": 29.8
+      },
+      "JN_P_02": {
+        "correct": 38,
+        "total": 140,
+        "pct": 27.1
+      },
+      "JN_P_03": {
+        "correct": 127,
+        "total": 140,
+        "pct": 90.7
+      },
+      "JN_P_05": {
+        "correct": 79,
+        "total": 122,
+        "pct": 64.8
+      },
+      "JN_P_07": {
+        "correct": 20,
+        "total": 91,
+        "pct": 22.0
+      },
+      "JN_P_08": {
+        "correct": 20,
+        "total": 64,
+        "pct": 31.2
+      },
+      "JN_A_01": {
+        "correct": 78,
+        "total": 78,
+        "pct": 100.0
+      },
+      "JN_A_02": {
+        "correct": 24,
+        "total": 105,
+        "pct": 22.9
+      },
+      "JN_A_04": {
+        "correct": 21,
+        "total": 62,
+        "pct": 33.9
+      },
+      "JN_A_06": {
+        "correct": 110,
+        "total": 116,
+        "pct": 94.8
+      },
+      "JN_H_01": {
+        "correct": 54,
+        "total": 104,
+        "pct": 51.9
+      },
+      "JN_H_02": {
+        "correct": 60,
+        "total": 131,
+        "pct": 45.8
+      },
+      "JN_S_01": {
+        "correct": 54,
+        "total": 62,
+        "pct": 87.1
+      },
+      "JN_S_03": {
+        "correct": 68,
+        "total": 135,
+        "pct": 50.4
+      },
+      "JN_S_04": {
+        "correct": 45,
+        "total": 51,
+        "pct": 88.2
+      },
+      "JN_S_05": {
+        "correct": 6,
+        "total": 58,
+        "pct": 10.3
+      },
+      "JN_ADV_01": {
+        "correct": 21,
+        "total": 55,
+        "pct": 38.2
+      },
+      "JN_ADV_02": {
+        "correct": 27,
+        "total": 48,
+        "pct": 56.2
+      },
+      "JN_ADV_03": {
+        "correct": 10,
+        "total": 140,
+        "pct": 7.1
+      },
+      "JN_ADV_04": {
+        "correct": 72,
+        "total": 140,
+        "pct": 51.4
+      },
+      "JN_A_05": {
+        "correct": 22,
+        "total": 67,
+        "pct": 32.8
+      }
+    }
+  },
+  "smolvlm": {
+    "paraphrase_consistency": {
+      "JN_P_01": {
+        "consistent": 147,
+        "total": 168,
+        "pct": 87.5
+      },
+      "JN_P_02": {
+        "consistent": 102,
+        "total": 280,
+        "pct": 36.4
+      },
+      "JN_P_03": {
+        "consistent": 187,
+        "total": 280,
+        "pct": 66.8
+      },
+      "JN_P_05": {
+        "consistent": 182,
+        "total": 244,
+        "pct": 74.6
+      },
+      "JN_P_07": {
+        "consistent": 115,
+        "total": 182,
+        "pct": 63.2
+      },
+      "JN_P_08": {
+        "consistent": 107,
+        "total": 264,
+        "pct": 40.5
+      },
+      "JN_A_01": {
+        "consistent": 17,
+        "total": 162,
+        "pct": 10.5
+      },
+      "JN_A_02": {
+        "consistent": 142,
+        "total": 232,
+        "pct": 61.2
+      },
+      "JN_A_04": {
+        "consistent": 2,
+        "total": 164,
+        "pct": 1.2
+      },
+      "JN_A_06": {
+        "consistent": 161,
+        "total": 264,
+        "pct": 61.0
+      },
+      "JN_H_01": {
+        "consistent": 205,
+        "total": 232,
+        "pct": 88.4
+      },
+      "JN_H_02": {
+        "consistent": 214,
+        "total": 280,
+        "pct": 76.4
+      },
+      "JN_S_01": {
+        "consistent": 186,
+        "total": 276,
+        "pct": 67.4
+      },
+      "JN_S_03": {
+        "consistent": 155,
+        "total": 274,
+        "pct": 56.6
+      },
+      "JN_S_04": {
+        "consistent": 7,
+        "total": 182,
+        "pct": 3.8
+      },
+      "JN_S_05": {
+        "consistent": 75,
+        "total": 232,
+        "pct": 32.3
+      },
+      "JN_ADV_01": {
+        "consistent": 73,
+        "total": 110,
+        "pct": 66.4
+      },
+      "JN_ADV_02": {
+        "consistent": 92,
+        "total": 102,
+        "pct": 90.2
+      },
+      "JN_ADV_03": {
+        "consistent": 185,
+        "total": 280,
+        "pct": 66.1
+      },
+      "JN_ADV_04": {
+        "consistent": 139,
+        "total": 280,
+        "pct": 49.6
+      },
+      "JN_A_05": {
+        "consistent": 111,
+        "total": 138,
+        "pct": 80.4
+      }
+    },
+    "negation_accuracy": {
+      "JN_P_01": {
+        "correct": 0,
+        "total": 84,
+        "pct": 0.0
+      },
+      "JN_P_02": {
+        "correct": 56,
+        "total": 140,
+        "pct": 40.0
+      },
+      "JN_P_03": {
+        "correct": 93,
+        "total": 140,
+        "pct": 66.4
+      },
+      "JN_P_05": {
+        "correct": 120,
+        "total": 122,
+        "pct": 98.4
+      },
+      "JN_P_07": {
+        "correct": 72,
+        "total": 91,
+        "pct": 79.1
+      },
+      "JN_P_08": {
+        "correct": 101,
+        "total": 132,
+        "pct": 76.5
+      },
+      "JN_A_01": {
+        "correct": 81,
+        "total": 81,
+        "pct": 100.0
+      },
+      "JN_A_02": {
+        "correct": 32,
+        "total": 116,
+        "pct": 27.6
+      },
+      "JN_A_04": {
+        "correct": 23,
+        "total": 82,
+        "pct": 28.0
+      },
+      "JN_A_06": {
+        "correct": 0,
+        "total": 132,
+        "pct": 0.0
+      },
+      "JN_H_01": {
+        "correct": 7,
+        "total": 116,
+        "pct": 6.0
+      },
+      "JN_H_02": {
+        "correct": 19,
+        "total": 140,
+        "pct": 13.6
+      },
+      "JN_S_01": {
+        "correct": 103,
+        "total": 139,
+        "pct": 74.1
+      },
+      "JN_S_03": {
+        "correct": 82,
+        "total": 137,
+        "pct": 59.9
+      },
+      "JN_S_04": {
+        "correct": 45,
+        "total": 91,
+        "pct": 49.5
+      },
+      "JN_S_05": {
+        "correct": 1,
+        "total": 82,
+        "pct": 1.2
+      },
+      "JN_ADV_01": {
+        "correct": 13,
+        "total": 55,
+        "pct": 23.6
+      },
+      "JN_ADV_02": {
+        "correct": 41,
+        "total": 54,
+        "pct": 75.9
+      },
+      "JN_ADV_03": {
+        "correct": 118,
+        "total": 140,
+        "pct": 84.3
+      },
+      "JN_ADV_04": {
+        "correct": 95,
+        "total": 140,
+        "pct": 67.9
+      },
+      "JN_A_05": {
+        "correct": 58,
+        "total": 69,
+        "pct": 84.1
+      }
+    }
+  },
+  "llava_ov": {
+    "paraphrase_consistency": {
+      "JN_P_01": {
+        "consistent": 144,
+        "total": 168,
+        "pct": 85.7
+      },
+      "JN_P_02": {
+        "consistent": 137,
+        "total": 280,
+        "pct": 48.9
+      },
+      "JN_P_03": {
+        "consistent": 203,
+        "total": 280,
+        "pct": 72.5
+      },
+      "JN_P_05": {
+        "consistent": 180,
+        "total": 244,
+        "pct": 73.8
+      },
+      "JN_P_07": {
+        "consistent": 77,
+        "total": 182,
+        "pct": 42.3
+      },
+      "JN_P_08": {
+        "consistent": 211,
+        "total": 264,
+        "pct": 79.9
+      },
+      "JN_A_01": {
+        "consistent": 126,
+        "total": 162,
+        "pct": 77.8
+      },
+      "JN_A_02": {
+        "consistent": 195,
+        "total": 232,
+        "pct": 84.1
+      },
+      "JN_A_04": {
+        "consistent": 1,
+        "total": 164,
+        "pct": 0.6
+      },
+      "JN_A_06": {
+        "consistent": 76,
+        "total": 264,
+        "pct": 28.8
+      },
+      "JN_H_01": {
+        "consistent": 132,
+        "total": 232,
+        "pct": 56.9
+      },
+      "JN_H_02": {
+        "consistent": 213,
+        "total": 280,
+        "pct": 76.1
+      },
+      "JN_S_01": {
+        "consistent": 207,
+        "total": 280,
+        "pct": 73.9
+      },
+      "JN_S_03": {
+        "consistent": 133,
+        "total": 280,
+        "pct": 47.5
+      },
+      "JN_S_04": {
+        "consistent": 0,
+        "total": 182,
+        "pct": 0.0
+      },
+      "JN_S_05": {
+        "consistent": 124,
+        "total": 232,
+        "pct": 53.4
+      },
+      "JN_ADV_01": {
+        "consistent": 103,
+        "total": 110,
+        "pct": 93.6
+      },
+      "JN_ADV_02": {
+        "consistent": 88,
+        "total": 110,
+        "pct": 80.0
+      },
+      "JN_ADV_03": {
+        "consistent": 148,
+        "total": 280,
+        "pct": 52.9
+      },
+      "JN_ADV_04": {
+        "consistent": 136,
+        "total": 280,
+        "pct": 48.6
+      },
+      "JN_A_05": {
+        "consistent": 49,
+        "total": 138,
+        "pct": 35.5
+      }
+    },
+    "negation_accuracy": {
+      "JN_P_01": {
+        "correct": 29,
+        "total": 84,
+        "pct": 34.5
+      },
+      "JN_P_02": {
+        "correct": 0,
+        "total": 140,
+        "pct": 0.0
+      },
+      "JN_P_03": {
+        "correct": 112,
+        "total": 140,
+        "pct": 80.0
+      },
+      "JN_P_05": {
+        "correct": 12,
+        "total": 122,
+        "pct": 9.8
+      },
+      "JN_P_07": {
+        "correct": 24,
+        "total": 91,
+        "pct": 26.4
+      },
+      "JN_P_08": {
+        "correct": 90,
+        "total": 132,
+        "pct": 68.2
+      },
+      "JN_A_01": {
+        "correct": 12,
+        "total": 81,
+        "pct": 14.8
+      },
+      "JN_A_02": {
+        "correct": 30,
+        "total": 116,
+        "pct": 25.9
+      },
+      "JN_A_04": {
+        "correct": 0,
+        "total": 82,
+        "pct": 0.0
+      },
+      "JN_A_06": {
+        "correct": 81,
+        "total": 132,
+        "pct": 61.4
+      },
+      "JN_H_01": {
+        "correct": 53,
+        "total": 116,
+        "pct": 45.7
+      },
+      "JN_H_02": {
+        "correct": 70,
+        "total": 140,
+        "pct": 50.0
+      },
+      "JN_S_01": {
+        "correct": 121,
+        "total": 140,
+        "pct": 86.4
+      },
+      "JN_S_03": {
+        "correct": 86,
+        "total": 140,
+        "pct": 61.4
+      },
+      "JN_S_04": {
+        "correct": 45,
+        "total": 91,
+        "pct": 49.5
+      },
+      "JN_S_05": {
+        "correct": 36,
+        "total": 116,
+        "pct": 31.0
+      },
+      "JN_ADV_01": {
+        "correct": 14,
+        "total": 55,
+        "pct": 25.5
+      },
+      "JN_ADV_02": {
+        "correct": 16,
+        "total": 55,
+        "pct": 29.1
+      },
+      "JN_ADV_03": {
+        "correct": 140,
+        "total": 140,
+        "pct": 100.0
+      },
+      "JN_ADV_04": {
+        "correct": 73,
+        "total": 140,
+        "pct": 52.1
+      },
+      "JN_A_05": {
+        "correct": 0,
+        "total": 69,
+        "pct": 0.0
+      }
+    }
+  },
+  "internvl3": {
+    "paraphrase_consistency": {
+      "JN_P_01": {
+        "consistent": 150,
+        "total": 168,
+        "pct": 89.3
+      },
+      "JN_P_02": {
+        "consistent": 161,
+        "total": 280,
+        "pct": 57.5
+      },
+      "JN_P_03": {
+        "consistent": 156,
+        "total": 280,
+        "pct": 55.7
+      },
+      "JN_P_05": {
+        "consistent": 181,
+        "total": 244,
+        "pct": 74.2
+      },
+      "JN_P_07": {
+        "consistent": 92,
+        "total": 182,
+        "pct": 50.5
+      },
+      "JN_P_08": {
+        "consistent": 42,
+        "total": 264,
+        "pct": 15.9
+      },
+      "JN_A_01": {
+        "consistent": 105,
+        "total": 162,
+        "pct": 64.8
+      },
+      "JN_A_02": {
+        "consistent": 156,
+        "total": 232,
+        "pct": 67.2
+      },
+      "JN_A_04": {
+        "consistent": 53,
+        "total": 164,
+        "pct": 32.3
+      },
+      "JN_A_06": {
+        "consistent": 156,
+        "total": 264,
+        "pct": 59.1
+      },
+      "JN_H_01": {
+        "consistent": 120,
+        "total": 232,
+        "pct": 51.7
+      },
+      "JN_H_02": {
+        "consistent": 191,
+        "total": 280,
+        "pct": 68.2
+      },
+      "JN_S_01": {
+        "consistent": 176,
+        "total": 280,
+        "pct": 62.9
+      },
+      "JN_S_03": {
+        "consistent": 138,
+        "total": 280,
+        "pct": 49.3
+      },
+      "JN_S_04": {
+        "consistent": 2,
+        "total": 182,
+        "pct": 1.1
+      },
+      "JN_S_05": {
+        "consistent": 127,
+        "total": 232,
+        "pct": 54.7
+      },
+      "JN_ADV_01": {
+        "consistent": 93,
+        "total": 110,
+        "pct": 84.5
+      },
+      "JN_ADV_02": {
+        "consistent": 103,
+        "total": 110,
+        "pct": 93.6
+      },
+      "JN_ADV_03": {
+        "consistent": 143,
+        "total": 280,
+        "pct": 51.1
+      },
+      "JN_ADV_04": {
+        "consistent": 186,
+        "total": 280,
+        "pct": 66.4
+      },
+      "JN_A_05": {
+        "consistent": 92,
+        "total": 138,
+        "pct": 66.7
+      }
+    },
+    "negation_accuracy": {
+      "JN_P_01": {
+        "correct": 4,
+        "total": 84,
+        "pct": 4.8
+      },
+      "JN_P_02": {
+        "correct": 41,
+        "total": 140,
+        "pct": 29.3
+      },
+      "JN_P_03": {
+        "correct": 114,
+        "total": 140,
+        "pct": 81.4
+      },
+      "JN_P_05": {
+        "correct": 97,
+        "total": 122,
+        "pct": 79.5
+      },
+      "JN_P_07": {
+        "correct": 2,
+        "total": 91,
+        "pct": 2.2
+      },
+      "JN_P_08": {
+        "correct": 15,
+        "total": 132,
+        "pct": 11.4
+      },
+      "JN_A_01": {
+        "correct": 2,
+        "total": 81,
+        "pct": 2.5
+      },
+      "JN_A_02": {
+        "correct": 60,
+        "total": 116,
+        "pct": 51.7
+      },
+      "JN_A_04": {
+        "correct": 52,
+        "total": 82,
+        "pct": 63.4
+      },
+      "JN_A_06": {
+        "correct": 69,
+        "total": 132,
+        "pct": 52.3
+      },
+      "JN_H_01": {
+        "correct": 113,
+        "total": 116,
+        "pct": 97.4
+      },
+      "JN_H_02": {
+        "correct": 140,
+        "total": 140,
+        "pct": 100.0
+      },
+      "JN_S_01": {
+        "correct": 122,
+        "total": 140,
+        "pct": 87.1
+      },
+      "JN_S_03": {
+        "correct": 80,
+        "total": 140,
+        "pct": 57.1
+      },
+      "JN_S_04": {
+        "correct": 44,
+        "total": 91,
+        "pct": 48.4
+      },
+      "JN_S_05": {
+        "correct": 49,
+        "total": 116,
+        "pct": 42.2
+      },
+      "JN_ADV_01": {
+        "correct": 21,
+        "total": 55,
+        "pct": 38.2
+      },
+      "JN_ADV_02": {
+        "correct": 6,
+        "total": 55,
+        "pct": 10.9
+      },
+      "JN_ADV_03": {
+        "correct": 32,
+        "total": 140,
+        "pct": 22.9
+      },
+      "JN_ADV_04": {
+        "correct": 75,
+        "total": 140,
+        "pct": 53.6
+      },
+      "JN_A_05": {
+        "correct": 21,
+        "total": 69,
+        "pct": 30.4
+      }
+    }
+  }
+}

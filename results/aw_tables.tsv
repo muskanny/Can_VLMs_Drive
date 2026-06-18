@@ -1,0 +1,268 @@
+
+
+================================================================================
+T1: Model-Level Summary (main_eval, original images only)
+================================================================================
+Model	Total Rows	Overall Acc%	GT=yes Acc%	GT=no Acc%	Affirmation Gap (yes-no)	Unclear%	Avg Response Time(s)	Bias Direction
+Moondream 2B	2390	55.4	70.8	42.6	28.2	7.7	1.15	Affirmation bias
+PaliGemma 3B	2390	64.0	65.0	63.1	1.9	4.1	0.1	Balanced
+SmolVLM 2.2B	2390	66.7	43.8	85.8	-42.0	0.0	0.44	Negation bias
+LLaVA-OV 8B	2390	78.3	74.5	81.5	-7.0	0.0	0.65	Balanced
+InternVL3 8B	2390	75.8	85.8	67.4	18.4	0.0	0.25	Affirmation bias
+
+
+================================================================================
+T2: Per-Question Accuracy % (main_eval, original images)
+================================================================================
+Q_ID	Q_Type	GT	Question	Moondream 2B	PaliGemma 3B	SmolVLM 2.2B	LLaVA-OV 8B	InternVL3 8B	Mean	Min	Max
+AW_ADV_01	adversarial	yes	Despite the weather, can you still identify what type of road this is?	83.0	28.7	64.9	83.0	83.0	68.5	28.7	83.0
+AW_ADV_02	adversarial	yes	Are any road signs or markings visible that convey speed or direction information?	58.5	77.7	75.5	73.4	81.9	73.4	58.5	81.9
+AW_ADV_03	adversarial	no	Would a driver need to use headlights to safely navigate this scene?	46.2	68.9	69.8	80.2	69.8	67.0	46.2	80.2
+AW_ADV_04	adversarial	no	Is there enough visual information to safely navigate an unfamiliar junction here?	28.0	56.0	88.0	84.0	60.0	63.2	28.0	88.0
+AW_A_01	action	no	Should the driver turn on their headlights right now?	46.2	65.1	74.5	67.9	72.6	65.3	46.2	74.5
+AW_A_02	action	no	Should the driver slow down below the speed limit given current conditions?	65.5	58.3	86.9	86.9	81.0	75.7	58.3	86.9
+AW_A_03	action	yes	Should the driver use windscreen wipers right now?	46.3	59.3	67.6	75.0	78.7	65.4	46.3	78.7
+AW_A_04	action	no	Is it safe to attempt an overtake of the vehicle ahead in these conditions?	97.1	73.5	95.6	95.6	97.1	91.8	73.5	97.1
+AW_A_06	action	no	Would you feel comfortable pulling over and stopping on the road here?	73.8	66.7	71.4	64.3	69.0	69.0	64.3	73.8
+AW_H_01	hazard	no	Is there a risk of a hidden vehicle or obstacle emerging suddenly from the scene?	66.7	58.8	46.1	78.4	66.7	63.3	46.1	78.4
+AW_H_03	hazard	no	Is there a pedestrian in a position where they could step into the vehicle's path?	13.9	61.4	94.1	90.1	97.0	71.3	13.9	97.0
+AW_H_04	hazard	yes	Could a cyclist or motorcyclist be hidden somewhere in this scene?	73.6	79.1	36.3	58.2	75.8	64.6	36.3	79.1
+AW_H_05	hazard	yes	Is the road surface likely to cause the vehicle to slide or lose traction?	19.8	91.2	87.9	87.9	79.1	73.2	19.8	91.2
+AW_H_06	hazard	no	Is there a risk of glare from headlights or wet road reflections in this scene?	20.4	28.0	30.1	55.9	44.1	35.7	20.4	55.9
+AW_P_01	perception	yes	Can you clearly make out the shape of vehicles ahead on the road?	63.2	72.4	62.1	69.0	51.7	63.7	51.7	72.4
+AW_P_02	perception	yes	Is it possible to read the colour of the traffic lights in this scene?	10.0	25.0	10.0	22.5	72.5	28.0	10.0	72.5
+AW_P_03	perception	yes	Are any road signs visible that you could read from the driver's seat?	72.3	76.6	76.6	72.3	77.7	75.1	72.3	77.7
+AW_P_04	perception	yes	Can you see far enough ahead to safely react to a sudden hazard?	16.0	70.0	71.0	79.0	63.0	59.8	16.0	79.0
+AW_P_05	perception	no	Is there a pedestrian visible anywhere near the road in this scene?	91.7	84.3	87.0	88.9	93.5	89.1	84.3	93.5
+AW_P_06	perception	yes	Is the road surface visible enough to judge whether it is wet, icy, or dry?	52.3	46.7	47.7	64.5	60.7	54.4	46.7	64.5
+AW_P_07	perception	no	Can you tell from this image whether there is a vehicle close enough to be a collision risk?	40.2	40.2	30.4	75.5	72.5	51.8	30.4	75.5
+AW_P_08	perception	yes	Is the sky visible and distinguishable from the road in this scene?	75.7	76.6	72.9	75.7	71.0	74.4	71.0	76.6
+AW_S_01	scene	no	Is this a nighttime driving scene?	95.2	97.1	98.1	98.1	98.1	97.3	95.2	98.1
+AW_S_02	scene	yes	Is this a highway or motorway rather than an urban or residential road?	22.2	59.6	80.8	83.8	82.8	65.8	22.2	83.8
+AW_S_04	scene	yes	Would this scene look significantly different under clear daytime conditions?	77.8	49.1	34.3	97.2	86.1	68.9	34.3	97.2
+AW_S_05	scene	yes	Is the overall light level sufficient to drive without headlights?	64.4	70.2	63.5	91.3	74.0	72.7	63.5	91.3
+
+
+================================================================================
+T3: Per-Weather Accuracy % (main_eval, original images)
+================================================================================
+Model	Rainy	Foggy	Snowy	Night	Clear	Best Weather	Worst Weather	Range
+Moondream 2B	54.5	60.6	60.3	75.9	34.8	Night	Clear	41.1
+PaliGemma 3B	58.9	64.1	60.1	75.3	65.8	Night	Rainy	16.4
+SmolVLM 2.2B	56.1	70.5	63.6	79.6	69.4	Night	Rainy	23.5
+LLaVA-OV 8B	70.6	76.6	77.4	93.1	78.7	Night	Rainy	22.5
+InternVL3 8B	73.4	66.2	72.0	85.6	82.5	Night	Foggy	19.4
+
+Model	Q_Type	Rainy	Foggy	Snowy	Night	Clear
+Moondream 2B	perception	50.8	70.9	48.8	72.0	49.4
+Moondream 2B	action	73.2	76.4	81.0	72.6	10.9
+Moondream 2B	hazard	34.3	41.8	59.8	70.2	5.8
+Moondream 2B	scene	65.7	63.3	66.0	87.3	52.1
+Moondream 2B	adversarial	56.4	43.6	53.3	81.2	56.2
+PaliGemma 3B	perception	57.5	64.5	56.0	78.8	69.6
+PaliGemma 3B	action	67.1	65.3	62.0	69.4	57.6
+PaliGemma 3B	hazard	60.0	68.4	65.0	89.5	49.2
+PaliGemma 3B	scene	62.6	46.7	72.2	63.5	89.6
+PaliGemma 3B	adversarial	47.4	74.5	46.7	72.9	63.0
+SmolVLM 2.2B	perception	44.2	90.9	61.3	89.0	39.9
+SmolVLM 2.2B	action	73.2	76.4	74.0	88.7	82.6
+SmolVLM 2.2B	hazard	63.8	43.0	40.2	57.9	85.0
+SmolVLM 2.2B	scene	52.5	60.0	66.0	73.0	90.6
+SmolVLM 2.2B	adversarial	60.3	72.7	84.4	79.2	67.1
+LLaVA-OV 8B	perception	58.6	86.4	67.3	89.0	71.4
+LLaVA-OV 8B	action	73.2	79.2	73.0	91.9	77.2
+LLaVA-OV 8B	hazard	67.6	64.6	65.8	94.7	85.8
+LLaVA-OV 8B	scene	91.9	83.3	99.0	95.2	91.7
+LLaVA-OV 8B	adversarial	73.1	63.6	93.3	100.0	68.5
+InternVL3 8B	perception	72.4	61.8	55.4	66.9	92.3
+InternVL3 8B	action	73.2	76.4	81.0	96.8	75.0
+InternVL3 8B	hazard	72.4	59.5	80.3	94.7	64.2
+InternVL3 8B	scene	81.8	75.0	84.5	95.2	89.6
+InternVL3 8B	adversarial	66.7	61.8	68.9	93.8	90.4
+
+
+================================================================================
+T4: Mode A vs Mode C — Visual Grounding Analysis
+================================================================================
+Model	Mode A Acc%	Mode C Acc%	VGS (A-C)	Mode A GT=yes%	Mode A GT=no%	Mode C GT=yes%	Mode C GT=no%	Mode C Default Answer	Mode C Default Pct%	Interpretation
+Moondream 2B	55.4	55.9	-0.5	70.8	42.6	20.7	85.3	no	80.5	Confounded — defaults to NO (VGS unreliable)
+PaliGemma 3B	64.0	37.9	26.1	65.0	63.1	12.3	59.2	no	53.3	Visually grounded (VGS > 15)
+SmolVLM 2.2B	66.7	54.5	12.2	43.8	85.8	0.0	100.0	no	100.0	Confounded — defaults to NO (VGS unreliable)
+LLaVA-OV 8B	78.3	56.2	22.1	74.5	81.5	42.9	67.4	no	62.7	Visually grounded (VGS > 15)
+InternVL3 8B	75.8	56.2	19.6	85.8	67.4	38.0	71.4	no	67.1	Visually grounded (VGS > 15)
+
+
+================================================================================
+T5: Linguistic Robustness — Model Level
+================================================================================
+Model	Paraphrase Consistency%	Negation Accuracy%	Negation vs Chance	Interpretation
+Moondream 2B	80.0	36.6	-13.4%	Severe negation blindness (below chance)
+PaliGemma 3B	80.9	48.6	-1.4%	Near-chance negation (systematic failure)
+SmolVLM 2.2B	78.5	43.2	-6.8%	Severe negation blindness (below chance)
+LLaVA-OV 8B	80.0	44.2	-5.8%	Severe negation blindness (below chance)
+InternVL3 8B	87.1	52.2	2.2%	Near-chance negation (systematic failure)
+
+
+================================================================================
+T6: Linguistic Robustness — Per Question
+================================================================================
+Q_ID	Q_Type	GT	Moondream 2B Para%	PaliGemma 3B Para%	SmolVLM 2.2B Para%	LLaVA-OV 8B Para%	InternVL3 8B Para%	Para Mean	Moondream 2B Neg%	PaliGemma 3B Neg%	SmolVLM 2.2B Neg%	LLaVA-OV 8B Neg%	InternVL3 8B Neg%	Neg Mean
+AW_ADV_01	adversarial	yes	82.4	62.0	41.0	56.4	98.4	68.0	23.4	50.0	66.0	42.6	91.5	54.7
+AW_ADV_02	adversarial	yes	73.4	90.4	92.0	84.6	81.4	84.4	0.0	14.9	23.4	16.0	28.7	16.6
+AW_ADV_03	adversarial	no	99.1	98.1	75.5	88.7	90.6	90.4	28.3	3.8	0.9	34.0	31.1	19.6
+AW_ADV_04	adversarial	no	45.2	64.6	77.0	95.0	83.0	73.0	100.0	0.0	98.0	22.0	2.0	44.4
+AW_A_01	action	no	99.5	84.0	82.1	93.4	95.8	91.0	51.9	37.9	30.2	56.6	33.0	41.9
+AW_A_02	action	no	98.8	88.4	91.1	82.1	91.7	90.4	6.2	66.7	27.4	17.9	41.7	32.0
+AW_A_03	action	yes	81.3	79.7	78.2	79.2	81.9	80.1	64.8	59.4	75.9	61.1	62.0	64.6
+AW_A_04	action	no	64.9	82.2	97.1	100.0	97.1	88.3	95.6	97.8	94.1	97.1	95.6	96.0
+AW_A_06	action	no	79.0	80.8	82.1	65.5	98.8	81.2	4.8	—	33.3	19.0	61.9	29.8
+AW_H_01	hazard	no	99.0	93.2	33.8	57.8	91.7	75.1	31.7	68.2	46.1	33.3	46.1	45.1
+AW_H_03	hazard	no	99.0	72.9	72.3	76.7	91.6	82.5	57.4	85.3	0.0	76.2	97.0	63.2
+AW_H_04	hazard	yes	98.9	89.2	90.7	65.9	38.5	76.6	47.3	24.4	9.9	49.5	42.9	34.8
+AW_H_05	hazard	yes	82.3	91.8	84.6	94.5	96.2	89.9	47.8	60.4	71.4	67.0	62.6	61.8
+AW_H_06	hazard	no	99.5	80.6	71.0	67.7	67.2	77.2	35.5	1.1	80.6	67.7	3.2	37.6
+AW_P_01	perception	yes	94.8	82.2	70.1	86.8	91.4	85.1	0.0	41.4	34.5	14.9	48.3	27.8
+AW_P_02	perception	yes	62.0	71.2	53.8	70.0	93.8	70.2	0.0	42.5	35.0	17.5	25.0	24.0
+AW_P_03	perception	yes	78.6	90.8	92.0	87.8	84.6	86.8	10.0	74.5	34.0	25.5	34.0	35.6
+AW_P_04	perception	yes	75.6	85.2	77.5	76.5	85.0	80.0	4.8	24.5	25.0	30.0	60.0	28.9
+AW_P_05	perception	no	84.7	89.8	99.1	96.3	97.2	93.4	62.9	65.7	16.7	87.0	91.7	64.8
+AW_P_06	perception	yes	67.1	78.1	58.4	80.4	95.3	75.9	4.1	48.6	0.0	14.0	53.3	24.0
+AW_P_07	perception	no	20.1	82.5	99.0	36.8	45.6	56.8	28.4	96.8	49.0	66.7	95.1	67.2
+AW_P_08	perception	yes	64.6	65.0	77.1	72.0	85.0	72.7	97.1	37.8	27.1	34.6	47.7	48.9
+AW_S_01	scene	no	97.6	99.0	100.0	97.6	99.5	98.7	74.6	6.7	58.7	64.4	62.5	53.4
+AW_S_02	scene	yes	63.0	59.2	91.9	94.9	95.5	80.9	9.4	67.4	67.7	21.2	16.2	36.4
+AW_S_04	scene	yes	88.7	65.7	61.6	94.9	90.7	80.3	60.2	76.9	75.0	55.6	69.4	67.4
+AW_S_05	scene	yes	80.0	77.4	91.8	77.9	96.2	84.7	4.3	62.5	44.2	56.7	53.8	44.3
+
+
+================================================================================
+T7: Scene-Change Sensitivity (SCS) — Counterfactual Analysis
+================================================================================
+Note: Snow SCS uses SD augmentation (JarvisIR snow too subtle per Shankar feedback)
+Model	Fog SCS%	Rain SCS%	Snow SCS% (SD)	Overall SCS%	Total Pairs	Both Correct	Both Wrong	Correct→Wrong (degradation)	Wrong→Correct (improvement)	Net Effect
+Moondream 2B	16.7	16.0	11.6	13.4	1398	323	442	193	440	+247
+PaliGemma 3B	39.6	43.1	36.3	39.3	1438	593	202	415	228	-187
+SmolVLM 2.2B	32.2	29.0	26.6	28.1	1555	663	264	421	207	-214
+LLaVA-OV 8B	37.3	36.3	32.0	32.6	1555	905	128	346	176	-170
+InternVL3 8B	30.9	31.5	28.8	27.9	1555	894	86	428	147	-281
+
+
+================================================================================
+T8: Behavioral Classification Per Question — All Models
+================================================================================
+AFFIRMATION_BIAS: GT=no acc <30% AND GT=yes acc >60%
+NEGATION_BIAS:    GT=yes acc <30% AND GT=no acc >60%
+MIXED_FAILURE:    both GT=yes and GT=no acc <50%
+BALANCED:         neither strong bias
+
+Q_ID	Q_Type	GT	Moondream 2B Bias	PaliGemma 3B Bias	SmolVLM 2.2B Bias	LLaVA-OV 8B Bias	InternVL3 8B Bias	Moondream 2B GT=yes%	PaliGemma 3B GT=yes%	SmolVLM 2.2B GT=yes%	LLaVA-OV 8B GT=yes%	InternVL3 8B GT=yes%	Moondream 2B GT=no%	PaliGemma 3B GT=no%	SmolVLM 2.2B GT=no%	LLaVA-OV 8B GT=no%	InternVL3 8B GT=no%
+AW_ADV_01	adversarial	yes	AFFIRMATION_BIAS	BALANCED	AFFIRMATION_BIAS	AFFIRMATION_BIAS	AFFIRMATION_BIAS	100.0	25.0	73.1	100.0	100.0	0.0	57.1	25.0	0.0	0.0
+AW_ADV_02	adversarial	yes	BALANCED	NEGATION_BIAS	NEGATION_BIAS	NEGATION_BIAS	BALANCED	95.2	4.8	0.0	0.0	57.1	47.9	98.6	97.3	94.5	89.0
+AW_ADV_03	adversarial	no	AFFIRMATION_BIAS	BALANCED	BALANCED	BALANCED	BALANCED	100.0	98.0	95.9	95.9	95.9	0.0	43.9	47.4	66.7	47.4
+AW_ADV_04	adversarial	no	NEGATION_BIAS	BALANCED	BALANCED	NEGATION_BIAS	BALANCED	0.0	100.0	33.3	11.1	88.9	77.8	46.3	100.0	100.0	53.7
+AW_A_01	action	no	AFFIRMATION_BIAS	BALANCED	BALANCED	BALANCED	BALANCED	100.0	91.7	79.6	98.0	95.9	0.0	53.2	70.2	42.1	52.6
+AW_A_02	action	no	AFFIRMATION_BIAS	AFFIRMATION_BIAS	BALANCED	BALANCED	BALANCED	100.0	97.8	98.2	100.0	100.0	0.0	17.4	65.5	62.1	44.8
+AW_A_03	action	yes	AFFIRMATION_BIAS	BALANCED	BALANCED	BALANCED	BALANCED	100.0	97.6	62.7	78.4	84.3	0.0	42.6	71.9	71.9	73.7
+AW_A_04	action	no	BALANCED	NEGATION_BIAS	NEGATION_BIAS	NEGATION_BIAS	BALANCED	33.3	0.0	0.0	0.0	33.3	100.0	100.0	100.0	100.0	100.0
+AW_A_06	action	no	BALANCED	NEGATION_BIAS	BALANCED	NEGATION_BIAS	NEGATION_BIAS	69.2	0.0	30.8	0.0	0.0	75.9	96.6	89.7	93.1	100.0
+AW_H_01	hazard	no	AFFIRMATION_BIAS	AFFIRMATION_BIAS	NEGATION_BIAS	BALANCED	AFFIRMATION_BIAS	100.0	96.6	17.9	77.6	100.0	2.9	13.3	100.0	80.0	2.9
+AW_H_03	hazard	no	AFFIRMATION_BIAS	BALANCED	BALANCED	BALANCED	BALANCED	100.0	92.3	61.5	69.2	92.3	1.1	61.0	98.9	93.2	97.7
+AW_H_04	hazard	yes	AFFIRMATION_BIAS	AFFIRMATION_BIAS	NEGATION_BIAS	BALANCED	BALANCED	100.0	100.0	13.4	56.7	86.6	0.0	25.0	100.0	62.5	45.8
+AW_H_05	hazard	yes	AFFIRMATION_BIAS	BALANCED	BALANCED	BALANCED	BALANCED	100.0	92.2	88.2	100.0	96.1	0.0	90.0	87.5	72.5	57.5
+AW_H_06	hazard	no	AFFIRMATION_BIAS	AFFIRMATION_BIAS	AFFIRMATION_BIAS	BALANCED	BALANCED	100.0	100.0	100.0	100.0	94.7	0.0	9.5	12.2	44.6	31.1
+AW_P_01	perception	yes	NEGATION_BIAS	BALANCED	NEGATION_BIAS	NEGATION_BIAS	AFFIRMATION_BIAS	13.9	72.2	16.7	27.8	94.4	98.0	72.5	94.1	98.0	21.6
+AW_P_02	perception	yes	NEGATION_BIAS	MIXED_FAILURE	NEGATION_BIAS	MIXED_FAILURE	BALANCED	2.7	24.3	2.7	21.6	75.7	100.0	33.3	100.0	33.3	33.3
+AW_P_03	perception	yes	BALANCED	BALANCED	NEGATION_BIAS	NEGATION_BIAS	BALANCED	51.9	48.1	29.6	14.8	59.3	80.6	88.1	95.5	95.5	85.1
+AW_P_04	perception	yes	NEGATION_BIAS	BALANCED	NEGATION_BIAS	BALANCED	BALANCED	10.5	81.2	12.1	69.7	87.9	60.9	65.7	100.0	83.6	50.7
+AW_P_05	perception	no	BALANCED	BALANCED	BALANCED	BALANCED	BALANCED	79.2	45.8	41.7	58.3	75.0	95.2	95.2	100.0	97.6	98.8
+AW_P_06	perception	yes	NEGATION_BIAS	AFFIRMATION_BIAS	NEGATION_BIAS	BALANCED	AFFIRMATION_BIAS	23.5	63.8	3.4	50.0	98.3	93.6	26.5	100.0	81.6	16.3
+AW_P_07	perception	no	NEGATION_BIAS	NEGATION_BIAS	NEGATION_BIAS	BALANCED	BALANCED	20.8	27.3	1.4	81.9	84.7	86.7	85.2	100.0	60.0	43.3
+AW_P_08	perception	yes	BALANCED	BALANCED	BALANCED	BALANCED	BALANCED	85.0	77.5	60.0	77.5	82.5	70.1	76.1	80.6	74.6	64.2
+AW_S_01	scene	no	BALANCED	BALANCED	BALANCED	BALANCED	BALANCED	100.0	100.0	100.0	100.0	100.0	92.8	95.7	97.1	97.1	97.1
+AW_S_02	scene	yes	AFFIRMATION_BIAS	BALANCED	BALANCED	BALANCED	BALANCED	84.6	100.0	35.7	60.7	53.6	0.0	52.2	98.6	93.0	94.4
+AW_S_04	scene	yes	AFFIRMATION_BIAS	BALANCED	NEGATION_BIAS	BALANCED	BALANCED	100.0	36.9	17.9	98.8	84.5	0.0	91.7	91.7	91.7	91.7
+AW_S_05	scene	yes	BALANCED	BALANCED	BALANCED	BALANCED	BALANCED	56.1	58.0	44.9	87.0	60.9	100.0	94.3	100.0	100.0	100.0
+
+
+================================================================================
+T9: Model-Level Behavioral Summary
+================================================================================
+Model	Total Questions	Affirmation Bias Qs	Negation Bias Qs	Mixed Failure Qs	Balanced Qs	Dominant Failure	Safety-Critical Bias Qs (hazard+action)
+Moondream 2B	26	12	6	0	8	AFFIRMATION_BIAS	8
+PaliGemma 3B	26	5	4	1	16	BALANCED	4
+SmolVLM 2.2B	26	2	11	0	13	BALANCED	1
+LLaVA-OV 8B	26	1	6	1	18	BALANCED	0
+InternVL3 8B	26	4	1	0	21	BALANCED	1
+
+
+================================================================================
+T10: Moondream 2B — Verbose Response Failure Mode Classification
+================================================================================
+Note: Only Moondream received unconstrained prompts — other models given yes/no only instruction
+
+Mode	Count	Pct%	Category	Description
+VISUAL_GROUNDED	613	25.6%	Correct	Correct + cites specific visual evidence
+PRIOR_CORRECT	122	5.1%	Correct	Correct but reasoning generic/text-based
+LUCKY_CORRECT	590	24.7%	Correct	Correct but describes wrong weather conditions
+HALLUCINATION	520	21.8%	Wrong	Wrong + fabricates visual content not in image
+WEATHER_CONFUSION	253	10.6%	Wrong	Wrong + describes incorrect weather type
+SAFETY_PRIOR	1	0.0%	Wrong	Wrong + generic safety language ignoring scene
+CORRECT_REASONING_WRONG_ANS	29	1.2%	Wrong	Reasoning directionally correct but answer wrong
+LANGUAGE_PRIOR	78	3.3%	Wrong	Wrong + no visual grounding, text-based only
+UNCLEAR_RECOVERABLE_YES	112	4.7%	Unclear	Unclear extraction — response implies YES
+UNCLEAR_RECOVERABLE_NO	8	0.3%	Unclear	Unclear extraction — response implies NO
+UNCLEAR_UNRECOVERABLE	64	2.7%	Unclear	Cannot determine intended answer from response
+
+Q_ID	Q_Type	Total Wrong	Dominant Failure Mode	Pct%	GT=yes Acc%	GT=no Acc%	Interpretation
+AW_ADV_01	adversarial	16	WEATHER_CONFUSION	62%	100.0	0.0	Model misidentifies weather type — confuses scene context
+AW_ADV_02	adversarial	39	HALLUCINATION	85%	95.2	47.9	Model fabricates visual content to justify wrong answer
+AW_ADV_03	adversarial	57	WEATHER_CONFUSION	53%	100.0	0.0	Model misidentifies weather type — confuses scene context
+AW_ADV_04	adversarial	36	UNCLEAR_RECOVERABLE_YES	81%	0.0	77.8	
+AW_A_01	action	57	HALLUCINATION	63%	100.0	0.0	Model fabricates visual content to justify wrong answer
+AW_A_02	action	29	HALLUCINATION	100%	100.0	0.0	Model fabricates visual content to justify wrong answer
+AW_A_03	action	58	WEATHER_CONFUSION	88%	100.0	0.0	Model misidentifies weather type — confuses scene context
+AW_A_04	action	2	HALLUCINATION	100%	33.3	100.0	Model fabricates visual content to justify wrong answer
+AW_A_06	action	11	HALLUCINATION	82%	69.2	75.9	Model fabricates visual content to justify wrong answer
+AW_H_01	hazard	34	HALLUCINATION	82%	100.0	2.9	Model fabricates visual content to justify wrong answer
+AW_H_03	hazard	87	HALLUCINATION	84%	100.0	1.1	Model fabricates visual content to justify wrong answer
+AW_H_04	hazard	24	HALLUCINATION	100%	100.0	0.0	Model fabricates visual content to justify wrong answer
+AW_H_05	hazard	73	UNCLEAR_UNRECOVERABLE	49%	100.0	0.0	
+AW_H_06	hazard	74	WEATHER_CONFUSION	58%	100.0	0.0	Model misidentifies weather type — confuses scene context
+AW_P_01	perception	32	WEATHER_CONFUSION	53%	13.9	98.0	Model misidentifies weather type — confuses scene context
+AW_P_02	perception	36	HALLUCINATION	42%	2.7	100.0	Model fabricates visual content to justify wrong answer
+AW_P_03	perception	26	HALLUCINATION	88%	51.9	80.6	Model fabricates visual content to justify wrong answer
+AW_P_04	perception	84	UNCLEAR_RECOVERABLE_YES	49%	10.5	60.9	
+AW_P_05	perception	9	HALLUCINATION	78%	79.2	95.2	Model fabricates visual content to justify wrong answer
+AW_P_06	perception	51	HALLUCINATION	47%	23.5	93.6	Model fabricates visual content to justify wrong answer
+AW_P_07	perception	61	HALLUCINATION	82%	20.8	86.7	Model fabricates visual content to justify wrong answer
+AW_P_08	perception	26	HALLUCINATION	77%	85.0	70.1	Model fabricates visual content to justify wrong answer
+AW_S_01	scene	5	WEATHER_CONFUSION	100%	100.0	92.8	Model misidentifies weather type — confuses scene context
+AW_S_02	scene	77	LANGUAGE_PRIOR	51%	84.6	0.0	Answer driven by question framing not visual content
+AW_S_04	scene	24	HALLUCINATION	83%	100.0	0.0	Model fabricates visual content to justify wrong answer
+AW_S_05	scene	37	HALLUCINATION	41%	56.1	100.0	Model fabricates visual content to justify wrong answer
+
+
+================================================================================
+T11: PaliGemma 3B — Refusal & Unusual Response Analysis
+================================================================================
+Note: PaliGemma is the only model that sometimes refuses or says unanswerable
+
+Category	Count	Pct%	Note
+Total responses	2390	100%	
+Bare yes/no	2293	95.9	Standard responses
+Refusals	91	3.8	"Sorry, as a base VLM I am not trained to answer this question"
+Unanswerable	5	0.2	Model acknowledges it cannot determine answer from image
+
+Refusal distribution by Q_Type:
+Q_Type	Refusal Count
+action	55
+hazard	22
+perception	11
+scene	2
+adversarial	1
+
+
+Done. Copy each TABLE section into a separate Google Sheets tab.
+Tables: T1=Summary, T2=PerQuestion, T3=PerWeather, T4=ModeAC,
+        T5=LingModel, T6=LingQuestion, T7=SCS, T8=BehavioralQ,
+        T9=BehavioralModel, T10=MoondreamVerbose, T11=PaliGemmaRefusal

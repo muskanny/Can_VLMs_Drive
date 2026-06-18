@@ -1,0 +1,131 @@
+q_id,question,model,N,refuses_pct,no_blank_pct,no_prior_pct,yes_prior_pct,visual_flip_pct,dominant_behaviour
+AW_ADV_01,"Despite the weather, can you still identify what type of road this is?",Moondream,94,0.0,100.0,0.0,0.0,100.0,No-blank default
+AW_ADV_01,"Despite the weather, can you still identify what type of road this is?",PaliGemma,94,100.0,0.0,0.0,0.0,0.0,Refuses w/o image
+AW_ADV_01,"Despite the weather, can you still identify what type of road this is?",SmolVLM,94,0.0,73.4,26.6,0.0,73.4,No-blank default
+AW_ADV_01,"Despite the weather, can you still identify what type of road this is?",LLaVA-OV,94,0.0,0.0,0.0,100.0,0.0,Yes-prior (lang)
+AW_ADV_01,"Despite the weather, can you still identify what type of road this is?",InternVL3,94,0.0,0.0,0.0,100.0,0.0,Yes-prior (lang)
+AW_ADV_02,Are any road signs or markings visible that convey speed or direction information?,Moondream,94,0.0,61.7,38.3,0.0,61.7,No-blank default
+AW_ADV_02,Are any road signs or markings visible that convey speed or direction information?,PaliGemma,94,0.0,2.1,97.9,0.0,2.1,No-prior (lang)
+AW_ADV_02,Are any road signs or markings visible that convey speed or direction information?,SmolVLM,94,0.0,2.1,97.9,0.0,2.1,No-prior (lang)
+AW_ADV_02,Are any road signs or markings visible that convey speed or direction information?,LLaVA-OV,94,0.0,4.3,95.7,0.0,4.3,No-prior (lang)
+AW_ADV_02,Are any road signs or markings visible that convey speed or direction information?,InternVL3,94,0.0,21.3,78.7,0.0,21.3,No-prior (lang)
+AW_ADV_03,Would a driver need to use headlights to safely navigate this scene?,Moondream,106,0.0,100.0,0.0,0.0,100.0,No-blank default
+AW_ADV_03,Would a driver need to use headlights to safely navigate this scene?,PaliGemma,106,0.0,75.5,24.5,0.0,75.5,No-blank default
+AW_ADV_03,Would a driver need to use headlights to safely navigate this scene?,SmolVLM,106,0.0,72.6,27.4,0.0,72.6,No-blank default
+AW_ADV_03,Would a driver need to use headlights to safely navigate this scene?,LLaVA-OV,106,0.0,62.3,37.7,0.0,62.3,No-blank default
+AW_ADV_03,Would a driver need to use headlights to safely navigate this scene?,InternVL3,106,0.0,0.0,0.0,72.6,27.4,Yes-prior (lang)
+AW_ADV_04,Is there enough visual information to safely navigate an unfamiliar junction here?,Moondream,50,0.0,8.0,34.0,0.0,66.0,Mixed
+AW_ADV_04,Is there enough visual information to safely navigate an unfamiliar junction here?,PaliGemma,50,0.0,62.0,38.0,0.0,62.0,No-blank default
+AW_ADV_04,Is there enough visual information to safely navigate an unfamiliar junction here?,SmolVLM,50,0.0,6.0,94.0,0.0,6.0,No-prior (lang)
+AW_ADV_04,Is there enough visual information to safely navigate an unfamiliar junction here?,LLaVA-OV,50,0.0,2.0,98.0,0.0,2.0,No-prior (lang)
+AW_ADV_04,Is there enough visual information to safely navigate an unfamiliar junction here?,InternVL3,50,0.0,54.0,46.0,0.0,54.0,No-blank default
+AW_A_01,Should the driver turn on their headlights right now?,Moondream,106,0.0,98.1,0.0,0.0,100.0,No-blank default
+AW_A_01,Should the driver turn on their headlights right now?,PaliGemma,106,100.0,0.0,0.0,0.0,0.0,Refuses w/o image
+AW_A_01,Should the driver turn on their headlights right now?,SmolVLM,106,0.0,52.8,47.2,0.0,52.8,No-blank default
+AW_A_01,Should the driver turn on their headlights right now?,LLaVA-OV,106,0.0,0.0,0.0,76.4,23.6,Yes-prior (lang)
+AW_A_01,Should the driver turn on their headlights right now?,InternVL3,106,0.0,69.8,30.2,0.0,69.8,No-blank default
+AW_A_02,Should the driver slow down below the speed limit given current conditions?,Moondream,84,0.0,0.0,0.0,100.0,0.0,Yes-prior (lang)
+AW_A_02,Should the driver slow down below the speed limit given current conditions?,PaliGemma,84,100.0,0.0,0.0,0.0,0.0,Refuses w/o image
+AW_A_02,Should the driver slow down below the speed limit given current conditions?,SmolVLM,84,0.0,76.2,23.8,0.0,76.2,No-blank default
+AW_A_02,Should the driver slow down below the speed limit given current conditions?,LLaVA-OV,84,0.0,0.0,0.0,78.6,21.4,Yes-prior (lang)
+AW_A_02,Should the driver slow down below the speed limit given current conditions?,InternVL3,84,0.0,0.0,0.0,84.5,15.5,Yes-prior (lang)
+AW_A_03,Should the driver use windscreen wipers right now?,Moondream,108,0.0,97.2,0.0,0.0,100.0,No-blank default
+AW_A_03,Should the driver use windscreen wipers right now?,PaliGemma,108,100.0,0.0,0.0,0.0,0.0,Refuses w/o image
+AW_A_03,Should the driver use windscreen wipers right now?,SmolVLM,108,0.0,44.4,55.6,0.0,44.4,No-blank default
+AW_A_03,Should the driver use windscreen wipers right now?,LLaVA-OV,108,0.0,51.9,48.1,0.0,51.9,No-blank default
+AW_A_03,Should the driver use windscreen wipers right now?,InternVL3,108,0.0,53.7,46.3,0.0,53.7,No-blank default
+AW_A_04,Is it safe to attempt an overtake of the vehicle ahead in these conditions?,Moondream,68,0.0,1.5,98.5,0.0,1.5,No-prior (lang)
+AW_A_04,Is it safe to attempt an overtake of the vehicle ahead in these conditions?,PaliGemma,68,0.0,0.0,75.0,0.0,25.0,No-prior (lang)
+AW_A_04,Is it safe to attempt an overtake of the vehicle ahead in these conditions?,SmolVLM,68,0.0,0.0,100.0,0.0,0.0,No-prior (lang)
+AW_A_04,Is it safe to attempt an overtake of the vehicle ahead in these conditions?,LLaVA-OV,68,0.0,0.0,100.0,0.0,0.0,No-prior (lang)
+AW_A_04,Is it safe to attempt an overtake of the vehicle ahead in these conditions?,InternVL3,68,0.0,1.5,98.5,0.0,1.5,No-prior (lang)
+AW_A_06,Would you feel comfortable pulling over and stopping on the road here?,Moondream,42,0.0,38.1,61.9,0.0,38.1,No-prior (lang)
+AW_A_06,Would you feel comfortable pulling over and stopping on the road here?,PaliGemma,42,100.0,0.0,0.0,0.0,0.0,Refuses w/o image
+AW_A_06,Would you feel comfortable pulling over and stopping on the road here?,SmolVLM,42,0.0,16.7,83.3,0.0,16.7,No-prior (lang)
+AW_A_06,Would you feel comfortable pulling over and stopping on the road here?,LLaVA-OV,42,0.0,4.8,95.2,0.0,4.8,No-prior (lang)
+AW_A_06,Would you feel comfortable pulling over and stopping on the road here?,InternVL3,42,0.0,0.0,100.0,0.0,0.0,No-prior (lang)
+AW_H_01,Is there a risk of a hidden vehicle or obstacle emerging suddenly from the scene?,Moondream,102,0.0,99.0,1.0,0.0,99.0,No-blank default
+AW_H_01,Is there a risk of a hidden vehicle or obstacle emerging suddenly from the scene?,PaliGemma,102,0.0,0.0,0.0,80.4,19.6,Yes-prior (lang)
+AW_H_01,Is there a risk of a hidden vehicle or obstacle emerging suddenly from the scene?,SmolVLM,102,0.0,11.8,88.2,0.0,11.8,No-prior (lang)
+AW_H_01,Is there a risk of a hidden vehicle or obstacle emerging suddenly from the scene?,LLaVA-OV,102,0.0,57.8,42.2,0.0,57.8,No-blank default
+AW_H_01,Is there a risk of a hidden vehicle or obstacle emerging suddenly from the scene?,InternVL3,102,0.0,99.0,1.0,0.0,99.0,No-blank default
+AW_H_03,Is there a pedestrian in a position where they could step into the vehicle's path?,Moondream,101,0.0,99.0,1.0,0.0,99.0,No-blank default
+AW_H_03,Is there a pedestrian in a position where they could step into the vehicle's path?,PaliGemma,101,0.0,43.6,50.5,0.0,49.5,No-blank default
+AW_H_03,Is there a pedestrian in a position where they could step into the vehicle's path?,SmolVLM,101,0.0,8.9,91.1,0.0,8.9,No-prior (lang)
+AW_H_03,Is there a pedestrian in a position where they could step into the vehicle's path?,LLaVA-OV,101,0.0,0.0,0.0,14.9,85.1,Mixed
+AW_H_03,Is there a pedestrian in a position where they could step into the vehicle's path?,InternVL3,101,0.0,13.9,86.1,0.0,13.9,No-prior (lang)
+AW_H_04,Could a cyclist or motorcyclist be hidden somewhere in this scene?,Moondream,91,0.0,0.0,0.0,100.0,0.0,Yes-prior (lang)
+AW_H_04,Could a cyclist or motorcyclist be hidden somewhere in this scene?,PaliGemma,91,0.0,0.0,0.0,92.3,7.7,Yes-prior (lang)
+AW_H_04,Could a cyclist or motorcyclist be hidden somewhere in this scene?,SmolVLM,91,0.0,9.9,90.1,0.0,9.9,No-prior (lang)
+AW_H_04,Could a cyclist or motorcyclist be hidden somewhere in this scene?,LLaVA-OV,91,0.0,51.6,48.4,0.0,51.6,No-blank default
+AW_H_04,Could a cyclist or motorcyclist be hidden somewhere in this scene?,InternVL3,91,0.0,78.0,22.0,0.0,78.0,No-blank default
+AW_H_05,Is the road surface likely to cause the vehicle to slide or lose traction?,Moondream,91,100.0,0.0,0.0,0.0,0.0,Refuses w/o image
+AW_H_05,Is the road surface likely to cause the vehicle to slide or lose traction?,PaliGemma,91,100.0,0.0,0.0,0.0,0.0,Refuses w/o image
+AW_H_05,Is the road surface likely to cause the vehicle to slide or lose traction?,SmolVLM,91,0.0,54.9,45.1,0.0,54.9,No-blank default
+AW_H_05,Is the road surface likely to cause the vehicle to slide or lose traction?,LLaVA-OV,91,0.0,0.0,0.0,68.1,31.9,Yes-prior (lang)
+AW_H_05,Is the road surface likely to cause the vehicle to slide or lose traction?,InternVL3,91,0.0,0.0,0.0,72.5,27.5,Yes-prior (lang)
+AW_H_06,Is there a risk of glare from headlights or wet road reflections in this scene?,Moondream,93,0.0,0.0,0.0,100.0,0.0,Yes-prior (lang)
+AW_H_06,Is there a risk of glare from headlights or wet road reflections in this scene?,PaliGemma,93,100.0,0.0,0.0,0.0,0.0,Refuses w/o image
+AW_H_06,Is there a risk of glare from headlights or wet road reflections in this scene?,SmolVLM,93,0.0,90.3,9.7,0.0,90.3,No-blank default
+AW_H_06,Is there a risk of glare from headlights or wet road reflections in this scene?,LLaVA-OV,93,0.0,64.5,35.5,0.0,64.5,No-blank default
+AW_H_06,Is there a risk of glare from headlights or wet road reflections in this scene?,InternVL3,93,0.0,74.2,25.8,0.0,74.2,No-blank default
+AW_P_01,Can you clearly make out the shape of vehicles ahead on the road?,Moondream,87,0.0,6.9,93.1,0.0,6.9,No-prior (lang)
+AW_P_01,Can you clearly make out the shape of vehicles ahead on the road?,PaliGemma,87,0.0,46.0,54.0,0.0,46.0,No-blank default
+AW_P_01,Can you clearly make out the shape of vehicles ahead on the road?,SmolVLM,87,0.0,10.3,89.7,0.0,10.3,No-prior (lang)
+AW_P_01,Can you clearly make out the shape of vehicles ahead on the road?,LLaVA-OV,87,0.0,12.6,87.4,0.0,12.6,No-prior (lang)
+AW_P_01,Can you clearly make out the shape of vehicles ahead on the road?,InternVL3,87,0.0,85.1,14.9,0.0,85.1,No-blank default
+AW_P_02,Is it possible to read the colour of the traffic lights in this scene?,Moondream,40,0.0,2.5,97.5,0.0,2.5,No-prior (lang)
+AW_P_02,Is it possible to read the colour of the traffic lights in this scene?,PaliGemma,40,0.0,27.5,72.5,0.0,27.5,No-prior (lang)
+AW_P_02,Is it possible to read the colour of the traffic lights in this scene?,SmolVLM,40,0.0,2.5,97.5,0.0,2.5,No-prior (lang)
+AW_P_02,Is it possible to read the colour of the traffic lights in this scene?,LLaVA-OV,40,0.0,25.0,75.0,0.0,25.0,No-prior (lang)
+AW_P_02,Is it possible to read the colour of the traffic lights in this scene?,InternVL3,40,0.0,75.0,25.0,0.0,75.0,No-blank default
+AW_P_03,Are any road signs visible that you could read from the driver's seat?,Moondream,94,0.0,28.7,71.3,0.0,28.7,No-prior (lang)
+AW_P_03,Are any road signs visible that you could read from the driver's seat?,PaliGemma,94,0.0,22.3,77.7,0.0,22.3,No-prior (lang)
+AW_P_03,Are any road signs visible that you could read from the driver's seat?,SmolVLM,94,0.0,11.7,88.3,0.0,11.7,No-prior (lang)
+AW_P_03,Are any road signs visible that you could read from the driver's seat?,LLaVA-OV,94,0.0,7.4,92.6,0.0,7.4,No-prior (lang)
+AW_P_03,Are any road signs visible that you could read from the driver's seat?,InternVL3,94,0.0,27.7,72.3,0.0,27.7,No-prior (lang)
+AW_P_04,Can you see far enough ahead to safely react to a sudden hazard?,Moondream,100,0.0,11.0,31.0,0.0,69.0,Mixed
+AW_P_04,Can you see far enough ahead to safely react to a sudden hazard?,PaliGemma,100,0.0,49.0,50.0,0.0,50.0,No-blank default
+AW_P_04,Can you see far enough ahead to safely react to a sudden hazard?,SmolVLM,100,0.0,4.0,96.0,0.0,4.0,No-prior (lang)
+AW_P_04,Can you see far enough ahead to safely react to a sudden hazard?,LLaVA-OV,100,0.0,0.0,0.0,34.0,66.0,Mixed
+AW_P_04,Can you see far enough ahead to safely react to a sudden hazard?,InternVL3,100,0.0,0.0,0.0,62.0,38.0,Yes-prior (lang)
+AW_P_05,Is there a pedestrian visible anywhere near the road in this scene?,Moondream,108,0.0,21.3,78.7,0.0,21.3,No-prior (lang)
+AW_P_05,Is there a pedestrian visible anywhere near the road in this scene?,PaliGemma,108,0.0,13.9,86.1,0.0,13.9,No-prior (lang)
+AW_P_05,Is there a pedestrian visible anywhere near the road in this scene?,SmolVLM,108,0.0,9.3,90.7,0.0,9.3,No-prior (lang)
+AW_P_05,Is there a pedestrian visible anywhere near the road in this scene?,LLaVA-OV,108,0.0,14.8,85.2,0.0,14.8,No-prior (lang)
+AW_P_05,Is there a pedestrian visible anywhere near the road in this scene?,InternVL3,108,0.0,17.6,82.4,0.0,17.6,No-prior (lang)
+AW_P_06,"Is the road surface visible enough to judge whether it is wet, icy, or dry?",Moondream,107,0.0,14.0,77.6,0.0,22.4,No-prior (lang)
+AW_P_06,"Is the road surface visible enough to judge whether it is wet, icy, or dry?",PaliGemma,107,0.0,68.2,31.8,0.0,68.2,No-blank default
+AW_P_06,"Is the road surface visible enough to judge whether it is wet, icy, or dry?",SmolVLM,107,0.0,1.9,98.1,0.0,1.9,No-prior (lang)
+AW_P_06,"Is the road surface visible enough to judge whether it is wet, icy, or dry?",LLaVA-OV,107,0.0,35.5,64.5,0.0,35.5,No-prior (lang)
+AW_P_06,"Is the road surface visible enough to judge whether it is wet, icy, or dry?",InternVL3,107,0.0,91.6,8.4,0.0,91.6,No-blank default
+AW_P_07,Can you tell from this image whether there is a vehicle close enough to be a collision risk?,Moondream,102,0.0,18.6,81.4,0.0,18.6,No-prior (lang)
+AW_P_07,Can you tell from this image whether there is a vehicle close enough to be a collision risk?,PaliGemma,102,100.0,0.0,0.0,0.0,0.0,Refuses w/o image
+AW_P_07,Can you tell from this image whether there is a vehicle close enough to be a collision risk?,SmolVLM,102,0.0,1.0,99.0,0.0,1.0,No-prior (lang)
+AW_P_07,Can you tell from this image whether there is a vehicle close enough to be a collision risk?,LLaVA-OV,102,0.0,69.6,30.4,0.0,69.6,No-blank default
+AW_P_07,Can you tell from this image whether there is a vehicle close enough to be a collision risk?,InternVL3,102,0.0,76.5,23.5,0.0,76.5,No-blank default
+AW_P_08,Is the sky visible and distinguishable from the road in this scene?,Moondream,107,0.0,50.5,49.5,0.0,50.5,No-blank default
+AW_P_08,Is the sky visible and distinguishable from the road in this scene?,PaliGemma,107,0.0,43.9,56.1,0.0,43.9,No-blank default
+AW_P_08,Is the sky visible and distinguishable from the road in this scene?,SmolVLM,107,0.0,34.6,65.4,0.0,34.6,No-prior (lang)
+AW_P_08,Is the sky visible and distinguishable from the road in this scene?,LLaVA-OV,107,0.0,44.9,55.1,0.0,44.9,No-blank default
+AW_P_08,Is the sky visible and distinguishable from the road in this scene?,InternVL3,107,0.0,53.3,46.7,0.0,53.3,No-blank default
+AW_S_01,Is this a nighttime driving scene?,Moondream,104,0.0,38.5,61.5,0.0,38.5,No-prior (lang)
+AW_S_01,Is this a nighttime driving scene?,PaliGemma,104,100.0,0.0,0.0,0.0,0.0,Refuses w/o image
+AW_S_01,Is this a nighttime driving scene?,SmolVLM,104,0.0,35.6,64.4,0.0,35.6,No-prior (lang)
+AW_S_01,Is this a nighttime driving scene?,LLaVA-OV,104,0.0,0.0,0.0,35.6,64.4,Mixed
+AW_S_01,Is this a nighttime driving scene?,InternVL3,104,0.0,0.0,0.0,35.6,64.4,Mixed
+AW_S_02,Is this a highway or motorway rather than an urban or residential road?,Moondream,99,0.0,69.7,4.0,0.0,96.0,No-blank default
+AW_S_02,Is this a highway or motorway rather than an urban or residential road?,PaliGemma,99,100.0,0.0,0.0,0.0,0.0,Refuses w/o image
+AW_S_02,Is this a highway or motorway rather than an urban or residential road?,SmolVLM,99,0.0,11.1,88.9,0.0,11.1,No-prior (lang)
+AW_S_02,Is this a highway or motorway rather than an urban or residential road?,LLaVA-OV,99,0.0,22.2,77.8,0.0,22.2,No-prior (lang)
+AW_S_02,Is this a highway or motorway rather than an urban or residential road?,InternVL3,99,0.0,0.0,0.0,19.2,80.8,Mixed
+AW_S_04,Would this scene look significantly different under clear daytime conditions?,Moondream,108,0.0,0.0,0.0,100.0,0.0,Yes-prior (lang)
+AW_S_04,Would this scene look significantly different under clear daytime conditions?,PaliGemma,108,0.0,30.6,69.4,0.0,30.6,No-prior (lang)
+AW_S_04,Would this scene look significantly different under clear daytime conditions?,SmolVLM,108,0.0,15.7,84.3,0.0,15.7,No-prior (lang)
+AW_S_04,Would this scene look significantly different under clear daytime conditions?,LLaVA-OV,108,0.0,0.0,0.0,78.7,21.3,Yes-prior (lang)
+AW_S_04,Would this scene look significantly different under clear daytime conditions?,InternVL3,108,0.0,0.0,0.0,67.6,32.4,Yes-prior (lang)
+AW_S_05,Is the overall light level sufficient to drive without headlights?,Moondream,104,0.0,30.8,57.7,0.0,42.3,No-prior (lang)
+AW_S_05,Is the overall light level sufficient to drive without headlights?,PaliGemma,104,0.0,40.4,59.6,0.0,40.4,No-blank default
+AW_S_05,Is the overall light level sufficient to drive without headlights?,SmolVLM,104,0.0,29.8,70.2,0.0,29.8,No-prior (lang)
+AW_S_05,Is the overall light level sufficient to drive without headlights?,LLaVA-OV,104,0.0,0.0,0.0,57.7,42.3,Yes-prior (lang)
+AW_S_05,Is the overall light level sufficient to drive without headlights?,InternVL3,104,0.0,40.4,59.6,0.0,40.4,No-blank default

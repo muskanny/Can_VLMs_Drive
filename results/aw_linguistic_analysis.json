@@ -1,0 +1,1332 @@
+{
+  "moondream": {
+    "paraphrase_consistency": {
+      "AW_P_03": {
+        "consistent": 143,
+        "total": 182,
+        "pct": 78.6
+      },
+      "AW_P_05": {
+        "consistent": 183,
+        "total": 216,
+        "pct": 84.7
+      },
+      "AW_P_06": {
+        "consistent": 116,
+        "total": 173,
+        "pct": 67.1
+      },
+      "AW_P_07": {
+        "consistent": 41,
+        "total": 204,
+        "pct": 20.1
+      },
+      "AW_P_08": {
+        "consistent": 135,
+        "total": 209,
+        "pct": 64.6
+      },
+      "AW_A_01": {
+        "consistent": 201,
+        "total": 202,
+        "pct": 99.5
+      },
+      "AW_A_02": {
+        "consistent": 166,
+        "total": 168,
+        "pct": 98.8
+      },
+      "AW_A_03": {
+        "consistent": 165,
+        "total": 203,
+        "pct": 81.3
+      },
+      "AW_A_06": {
+        "consistent": 49,
+        "total": 62,
+        "pct": 79.0
+      },
+      "AW_H_03": {
+        "consistent": 200,
+        "total": 202,
+        "pct": 99.0
+      },
+      "AW_H_05": {
+        "consistent": 65,
+        "total": 79,
+        "pct": 82.3
+      },
+      "AW_H_06": {
+        "consistent": 185,
+        "total": 186,
+        "pct": 99.5
+      },
+      "AW_S_01": {
+        "consistent": 203,
+        "total": 208,
+        "pct": 97.6
+      },
+      "AW_S_02": {
+        "consistent": 92,
+        "total": 146,
+        "pct": 63.0
+      },
+      "AW_S_04": {
+        "consistent": 149,
+        "total": 168,
+        "pct": 88.7
+      },
+      "AW_S_05": {
+        "consistent": 136,
+        "total": 170,
+        "pct": 80.0
+      },
+      "AW_ADV_01": {
+        "consistent": 155,
+        "total": 188,
+        "pct": 82.4
+      },
+      "AW_ADV_02": {
+        "consistent": 138,
+        "total": 188,
+        "pct": 73.4
+      },
+      "AW_ADV_03": {
+        "consistent": 112,
+        "total": 113,
+        "pct": 99.1
+      },
+      "AW_P_01": {
+        "consistent": 165,
+        "total": 174,
+        "pct": 94.8
+      },
+      "AW_P_04": {
+        "consistent": 34,
+        "total": 45,
+        "pct": 75.6
+      },
+      "AW_H_01": {
+        "consistent": 202,
+        "total": 204,
+        "pct": 99.0
+      },
+      "AW_A_04": {
+        "consistent": 61,
+        "total": 94,
+        "pct": 64.9
+      },
+      "AW_H_04": {
+        "consistent": 180,
+        "total": 182,
+        "pct": 98.9
+      },
+      "AW_P_02": {
+        "consistent": 49,
+        "total": 79,
+        "pct": 62.0
+      },
+      "AW_ADV_04": {
+        "consistent": 14,
+        "total": 31,
+        "pct": 45.2
+      }
+    },
+    "negation_accuracy": {
+      "AW_P_03": {
+        "correct": 6,
+        "total": 60,
+        "pct": 10.0
+      },
+      "AW_P_05": {
+        "correct": 66,
+        "total": 105,
+        "pct": 62.9
+      },
+      "AW_P_06": {
+        "correct": 4,
+        "total": 98,
+        "pct": 4.1
+      },
+      "AW_P_07": {
+        "correct": 29,
+        "total": 102,
+        "pct": 28.4
+      },
+      "AW_P_08": {
+        "correct": 33,
+        "total": 34,
+        "pct": 97.1
+      },
+      "AW_A_01": {
+        "correct": 54,
+        "total": 104,
+        "pct": 51.9
+      },
+      "AW_A_02": {
+        "correct": 5,
+        "total": 80,
+        "pct": 6.2
+      },
+      "AW_A_03": {
+        "correct": 68,
+        "total": 105,
+        "pct": 64.8
+      },
+      "AW_A_06": {
+        "correct": 2,
+        "total": 42,
+        "pct": 4.8
+      },
+      "AW_H_03": {
+        "correct": 58,
+        "total": 101,
+        "pct": 57.4
+      },
+      "AW_H_05": {
+        "correct": 22,
+        "total": 46,
+        "pct": 47.8
+      },
+      "AW_H_06": {
+        "correct": 33,
+        "total": 93,
+        "pct": 35.5
+      },
+      "AW_S_01": {
+        "correct": 44,
+        "total": 59,
+        "pct": 74.6
+      },
+      "AW_S_02": {
+        "correct": 3,
+        "total": 32,
+        "pct": 9.4
+      },
+      "AW_S_04": {
+        "correct": 65,
+        "total": 108,
+        "pct": 60.2
+      },
+      "AW_S_05": {
+        "correct": 4,
+        "total": 92,
+        "pct": 4.3
+      },
+      "AW_ADV_01": {
+        "correct": 22,
+        "total": 94,
+        "pct": 23.4
+      },
+      "AW_ADV_02": {
+        "correct": 0,
+        "total": 94,
+        "pct": 0.0
+      },
+      "AW_ADV_03": {
+        "correct": 30,
+        "total": 106,
+        "pct": 28.3
+      },
+      "AW_P_01": {
+        "correct": 0,
+        "total": 87,
+        "pct": 0.0
+      },
+      "AW_P_04": {
+        "correct": 2,
+        "total": 42,
+        "pct": 4.8
+      },
+      "AW_H_01": {
+        "correct": 32,
+        "total": 101,
+        "pct": 31.7
+      },
+      "AW_A_04": {
+        "correct": 43,
+        "total": 45,
+        "pct": 95.6
+      },
+      "AW_H_04": {
+        "correct": 43,
+        "total": 91,
+        "pct": 47.3
+      },
+      "AW_P_02": {
+        "correct": 0,
+        "total": 36,
+        "pct": 0.0
+      },
+      "AW_ADV_04": {
+        "correct": 21,
+        "total": 21,
+        "pct": 100.0
+      }
+    }
+  },
+  "paligemma": {
+    "paraphrase_consistency": {
+      "AW_P_03": {
+        "consistent": 167,
+        "total": 184,
+        "pct": 90.8
+      },
+      "AW_P_05": {
+        "consistent": 194,
+        "total": 216,
+        "pct": 89.8
+      },
+      "AW_P_06": {
+        "consistent": 164,
+        "total": 210,
+        "pct": 78.1
+      },
+      "AW_P_07": {
+        "consistent": 151,
+        "total": 183,
+        "pct": 82.5
+      },
+      "AW_P_08": {
+        "consistent": 139,
+        "total": 214,
+        "pct": 65.0
+      },
+      "AW_A_01": {
+        "consistent": 131,
+        "total": 156,
+        "pct": 84.0
+      },
+      "AW_A_02": {
+        "consistent": 107,
+        "total": 121,
+        "pct": 88.4
+      },
+      "AW_A_03": {
+        "consistent": 153,
+        "total": 192,
+        "pct": 79.7
+      },
+      "AW_A_06": {
+        "consistent": 63,
+        "total": 78,
+        "pct": 80.8
+      },
+      "AW_H_03": {
+        "consistent": 113,
+        "total": 155,
+        "pct": 72.9
+      },
+      "AW_H_05": {
+        "consistent": 167,
+        "total": 182,
+        "pct": 91.8
+      },
+      "AW_H_06": {
+        "consistent": 145,
+        "total": 180,
+        "pct": 80.6
+      },
+      "AW_S_01": {
+        "consistent": 206,
+        "total": 208,
+        "pct": 99.0
+      },
+      "AW_S_02": {
+        "consistent": 109,
+        "total": 184,
+        "pct": 59.2
+      },
+      "AW_S_04": {
+        "consistent": 142,
+        "total": 216,
+        "pct": 65.7
+      },
+      "AW_S_05": {
+        "consistent": 161,
+        "total": 208,
+        "pct": 77.4
+      },
+      "AW_ADV_01": {
+        "consistent": 111,
+        "total": 179,
+        "pct": 62.0
+      },
+      "AW_ADV_02": {
+        "consistent": 170,
+        "total": 188,
+        "pct": 90.4
+      },
+      "AW_ADV_03": {
+        "consistent": 208,
+        "total": 212,
+        "pct": 98.1
+      },
+      "AW_P_01": {
+        "consistent": 143,
+        "total": 174,
+        "pct": 82.2
+      },
+      "AW_P_04": {
+        "consistent": 167,
+        "total": 196,
+        "pct": 85.2
+      },
+      "AW_H_01": {
+        "consistent": 164,
+        "total": 176,
+        "pct": 93.2
+      },
+      "AW_A_04": {
+        "consistent": 83,
+        "total": 101,
+        "pct": 82.2
+      },
+      "AW_H_04": {
+        "consistent": 148,
+        "total": 166,
+        "pct": 89.2
+      },
+      "AW_P_02": {
+        "consistent": 57,
+        "total": 80,
+        "pct": 71.2
+      },
+      "AW_ADV_04": {
+        "consistent": 62,
+        "total": 96,
+        "pct": 64.6
+      }
+    },
+    "negation_accuracy": {
+      "AW_P_03": {
+        "correct": 70,
+        "total": 94,
+        "pct": 74.5
+      },
+      "AW_P_05": {
+        "correct": 71,
+        "total": 108,
+        "pct": 65.7
+      },
+      "AW_P_06": {
+        "correct": 52,
+        "total": 107,
+        "pct": 48.6
+      },
+      "AW_P_07": {
+        "correct": 90,
+        "total": 93,
+        "pct": 96.8
+      },
+      "AW_P_08": {
+        "correct": 34,
+        "total": 90,
+        "pct": 37.8
+      },
+      "AW_A_01": {
+        "correct": 36,
+        "total": 95,
+        "pct": 37.9
+      },
+      "AW_A_02": {
+        "correct": 46,
+        "total": 69,
+        "pct": 66.7
+      },
+      "AW_A_03": {
+        "correct": 57,
+        "total": 96,
+        "pct": 59.4
+      },
+      "AW_A_06": {
+        "correct": 0,
+        "total": 0,
+        "pct": null
+      },
+      "AW_H_03": {
+        "correct": 81,
+        "total": 95,
+        "pct": 85.3
+      },
+      "AW_H_05": {
+        "correct": 55,
+        "total": 91,
+        "pct": 60.4
+      },
+      "AW_H_06": {
+        "correct": 1,
+        "total": 93,
+        "pct": 1.1
+      },
+      "AW_S_01": {
+        "correct": 7,
+        "total": 104,
+        "pct": 6.7
+      },
+      "AW_S_02": {
+        "correct": 62,
+        "total": 92,
+        "pct": 67.4
+      },
+      "AW_S_04": {
+        "correct": 83,
+        "total": 108,
+        "pct": 76.9
+      },
+      "AW_S_05": {
+        "correct": 65,
+        "total": 104,
+        "pct": 62.5
+      },
+      "AW_ADV_01": {
+        "correct": 45,
+        "total": 90,
+        "pct": 50.0
+      },
+      "AW_ADV_02": {
+        "correct": 14,
+        "total": 94,
+        "pct": 14.9
+      },
+      "AW_ADV_03": {
+        "correct": 4,
+        "total": 104,
+        "pct": 3.8
+      },
+      "AW_P_01": {
+        "correct": 36,
+        "total": 87,
+        "pct": 41.4
+      },
+      "AW_P_04": {
+        "correct": 23,
+        "total": 94,
+        "pct": 24.5
+      },
+      "AW_H_01": {
+        "correct": 60,
+        "total": 88,
+        "pct": 68.2
+      },
+      "AW_A_04": {
+        "correct": 44,
+        "total": 45,
+        "pct": 97.8
+      },
+      "AW_H_04": {
+        "correct": 22,
+        "total": 90,
+        "pct": 24.4
+      },
+      "AW_P_02": {
+        "correct": 17,
+        "total": 40,
+        "pct": 42.5
+      },
+      "AW_ADV_04": {
+        "correct": 0,
+        "total": 23,
+        "pct": 0.0
+      }
+    }
+  },
+  "smolvlm": {
+    "paraphrase_consistency": {
+      "AW_P_03": {
+        "consistent": 173,
+        "total": 188,
+        "pct": 92.0
+      },
+      "AW_P_05": {
+        "consistent": 214,
+        "total": 216,
+        "pct": 99.1
+      },
+      "AW_P_06": {
+        "consistent": 125,
+        "total": 214,
+        "pct": 58.4
+      },
+      "AW_P_07": {
+        "consistent": 202,
+        "total": 204,
+        "pct": 99.0
+      },
+      "AW_P_08": {
+        "consistent": 165,
+        "total": 214,
+        "pct": 77.1
+      },
+      "AW_A_01": {
+        "consistent": 174,
+        "total": 212,
+        "pct": 82.1
+      },
+      "AW_A_02": {
+        "consistent": 153,
+        "total": 168,
+        "pct": 91.1
+      },
+      "AW_A_03": {
+        "consistent": 169,
+        "total": 216,
+        "pct": 78.2
+      },
+      "AW_A_06": {
+        "consistent": 69,
+        "total": 84,
+        "pct": 82.1
+      },
+      "AW_H_03": {
+        "consistent": 146,
+        "total": 202,
+        "pct": 72.3
+      },
+      "AW_H_05": {
+        "consistent": 154,
+        "total": 182,
+        "pct": 84.6
+      },
+      "AW_H_06": {
+        "consistent": 132,
+        "total": 186,
+        "pct": 71.0
+      },
+      "AW_S_01": {
+        "consistent": 208,
+        "total": 208,
+        "pct": 100.0
+      },
+      "AW_S_02": {
+        "consistent": 182,
+        "total": 198,
+        "pct": 91.9
+      },
+      "AW_S_04": {
+        "consistent": 133,
+        "total": 216,
+        "pct": 61.6
+      },
+      "AW_S_05": {
+        "consistent": 191,
+        "total": 208,
+        "pct": 91.8
+      },
+      "AW_ADV_01": {
+        "consistent": 77,
+        "total": 188,
+        "pct": 41.0
+      },
+      "AW_ADV_02": {
+        "consistent": 173,
+        "total": 188,
+        "pct": 92.0
+      },
+      "AW_ADV_03": {
+        "consistent": 160,
+        "total": 212,
+        "pct": 75.5
+      },
+      "AW_P_01": {
+        "consistent": 122,
+        "total": 174,
+        "pct": 70.1
+      },
+      "AW_P_04": {
+        "consistent": 155,
+        "total": 200,
+        "pct": 77.5
+      },
+      "AW_H_01": {
+        "consistent": 69,
+        "total": 204,
+        "pct": 33.8
+      },
+      "AW_A_04": {
+        "consistent": 132,
+        "total": 136,
+        "pct": 97.1
+      },
+      "AW_H_04": {
+        "consistent": 165,
+        "total": 182,
+        "pct": 90.7
+      },
+      "AW_P_02": {
+        "consistent": 43,
+        "total": 80,
+        "pct": 53.8
+      },
+      "AW_ADV_04": {
+        "consistent": 77,
+        "total": 100,
+        "pct": 77.0
+      }
+    },
+    "negation_accuracy": {
+      "AW_P_03": {
+        "correct": 32,
+        "total": 94,
+        "pct": 34.0
+      },
+      "AW_P_05": {
+        "correct": 18,
+        "total": 108,
+        "pct": 16.7
+      },
+      "AW_P_06": {
+        "correct": 0,
+        "total": 107,
+        "pct": 0.0
+      },
+      "AW_P_07": {
+        "correct": 50,
+        "total": 102,
+        "pct": 49.0
+      },
+      "AW_P_08": {
+        "correct": 29,
+        "total": 107,
+        "pct": 27.1
+      },
+      "AW_A_01": {
+        "correct": 32,
+        "total": 106,
+        "pct": 30.2
+      },
+      "AW_A_02": {
+        "correct": 23,
+        "total": 84,
+        "pct": 27.4
+      },
+      "AW_A_03": {
+        "correct": 82,
+        "total": 108,
+        "pct": 75.9
+      },
+      "AW_A_06": {
+        "correct": 14,
+        "total": 42,
+        "pct": 33.3
+      },
+      "AW_H_03": {
+        "correct": 0,
+        "total": 101,
+        "pct": 0.0
+      },
+      "AW_H_05": {
+        "correct": 65,
+        "total": 91,
+        "pct": 71.4
+      },
+      "AW_H_06": {
+        "correct": 75,
+        "total": 93,
+        "pct": 80.6
+      },
+      "AW_S_01": {
+        "correct": 61,
+        "total": 104,
+        "pct": 58.7
+      },
+      "AW_S_02": {
+        "correct": 67,
+        "total": 99,
+        "pct": 67.7
+      },
+      "AW_S_04": {
+        "correct": 81,
+        "total": 108,
+        "pct": 75.0
+      },
+      "AW_S_05": {
+        "correct": 46,
+        "total": 104,
+        "pct": 44.2
+      },
+      "AW_ADV_01": {
+        "correct": 62,
+        "total": 94,
+        "pct": 66.0
+      },
+      "AW_ADV_02": {
+        "correct": 22,
+        "total": 94,
+        "pct": 23.4
+      },
+      "AW_ADV_03": {
+        "correct": 1,
+        "total": 106,
+        "pct": 0.9
+      },
+      "AW_P_01": {
+        "correct": 30,
+        "total": 87,
+        "pct": 34.5
+      },
+      "AW_P_04": {
+        "correct": 25,
+        "total": 100,
+        "pct": 25.0
+      },
+      "AW_H_01": {
+        "correct": 47,
+        "total": 102,
+        "pct": 46.1
+      },
+      "AW_A_04": {
+        "correct": 64,
+        "total": 68,
+        "pct": 94.1
+      },
+      "AW_H_04": {
+        "correct": 9,
+        "total": 91,
+        "pct": 9.9
+      },
+      "AW_P_02": {
+        "correct": 14,
+        "total": 40,
+        "pct": 35.0
+      },
+      "AW_ADV_04": {
+        "correct": 49,
+        "total": 50,
+        "pct": 98.0
+      }
+    }
+  },
+  "llava_ov": {
+    "paraphrase_consistency": {
+      "AW_P_03": {
+        "consistent": 165,
+        "total": 188,
+        "pct": 87.8
+      },
+      "AW_P_05": {
+        "consistent": 208,
+        "total": 216,
+        "pct": 96.3
+      },
+      "AW_P_06": {
+        "consistent": 172,
+        "total": 214,
+        "pct": 80.4
+      },
+      "AW_P_07": {
+        "consistent": 75,
+        "total": 204,
+        "pct": 36.8
+      },
+      "AW_P_08": {
+        "consistent": 154,
+        "total": 214,
+        "pct": 72.0
+      },
+      "AW_A_01": {
+        "consistent": 198,
+        "total": 212,
+        "pct": 93.4
+      },
+      "AW_A_02": {
+        "consistent": 138,
+        "total": 168,
+        "pct": 82.1
+      },
+      "AW_A_03": {
+        "consistent": 171,
+        "total": 216,
+        "pct": 79.2
+      },
+      "AW_A_06": {
+        "consistent": 55,
+        "total": 84,
+        "pct": 65.5
+      },
+      "AW_H_03": {
+        "consistent": 155,
+        "total": 202,
+        "pct": 76.7
+      },
+      "AW_H_05": {
+        "consistent": 172,
+        "total": 182,
+        "pct": 94.5
+      },
+      "AW_H_06": {
+        "consistent": 126,
+        "total": 186,
+        "pct": 67.7
+      },
+      "AW_S_01": {
+        "consistent": 203,
+        "total": 208,
+        "pct": 97.6
+      },
+      "AW_S_02": {
+        "consistent": 188,
+        "total": 198,
+        "pct": 94.9
+      },
+      "AW_S_04": {
+        "consistent": 205,
+        "total": 216,
+        "pct": 94.9
+      },
+      "AW_S_05": {
+        "consistent": 162,
+        "total": 208,
+        "pct": 77.9
+      },
+      "AW_ADV_01": {
+        "consistent": 106,
+        "total": 188,
+        "pct": 56.4
+      },
+      "AW_ADV_02": {
+        "consistent": 159,
+        "total": 188,
+        "pct": 84.6
+      },
+      "AW_ADV_03": {
+        "consistent": 188,
+        "total": 212,
+        "pct": 88.7
+      },
+      "AW_P_01": {
+        "consistent": 151,
+        "total": 174,
+        "pct": 86.8
+      },
+      "AW_P_04": {
+        "consistent": 153,
+        "total": 200,
+        "pct": 76.5
+      },
+      "AW_H_01": {
+        "consistent": 118,
+        "total": 204,
+        "pct": 57.8
+      },
+      "AW_A_04": {
+        "consistent": 136,
+        "total": 136,
+        "pct": 100.0
+      },
+      "AW_H_04": {
+        "consistent": 120,
+        "total": 182,
+        "pct": 65.9
+      },
+      "AW_P_02": {
+        "consistent": 56,
+        "total": 80,
+        "pct": 70.0
+      },
+      "AW_ADV_04": {
+        "consistent": 95,
+        "total": 100,
+        "pct": 95.0
+      }
+    },
+    "negation_accuracy": {
+      "AW_P_03": {
+        "correct": 24,
+        "total": 94,
+        "pct": 25.5
+      },
+      "AW_P_05": {
+        "correct": 94,
+        "total": 108,
+        "pct": 87.0
+      },
+      "AW_P_06": {
+        "correct": 15,
+        "total": 107,
+        "pct": 14.0
+      },
+      "AW_P_07": {
+        "correct": 68,
+        "total": 102,
+        "pct": 66.7
+      },
+      "AW_P_08": {
+        "correct": 37,
+        "total": 107,
+        "pct": 34.6
+      },
+      "AW_A_01": {
+        "correct": 60,
+        "total": 106,
+        "pct": 56.6
+      },
+      "AW_A_02": {
+        "correct": 15,
+        "total": 84,
+        "pct": 17.9
+      },
+      "AW_A_03": {
+        "correct": 66,
+        "total": 108,
+        "pct": 61.1
+      },
+      "AW_A_06": {
+        "correct": 8,
+        "total": 42,
+        "pct": 19.0
+      },
+      "AW_H_03": {
+        "correct": 77,
+        "total": 101,
+        "pct": 76.2
+      },
+      "AW_H_05": {
+        "correct": 61,
+        "total": 91,
+        "pct": 67.0
+      },
+      "AW_H_06": {
+        "correct": 63,
+        "total": 93,
+        "pct": 67.7
+      },
+      "AW_S_01": {
+        "correct": 67,
+        "total": 104,
+        "pct": 64.4
+      },
+      "AW_S_02": {
+        "correct": 21,
+        "total": 99,
+        "pct": 21.2
+      },
+      "AW_S_04": {
+        "correct": 60,
+        "total": 108,
+        "pct": 55.6
+      },
+      "AW_S_05": {
+        "correct": 59,
+        "total": 104,
+        "pct": 56.7
+      },
+      "AW_ADV_01": {
+        "correct": 40,
+        "total": 94,
+        "pct": 42.6
+      },
+      "AW_ADV_02": {
+        "correct": 15,
+        "total": 94,
+        "pct": 16.0
+      },
+      "AW_ADV_03": {
+        "correct": 36,
+        "total": 106,
+        "pct": 34.0
+      },
+      "AW_P_01": {
+        "correct": 13,
+        "total": 87,
+        "pct": 14.9
+      },
+      "AW_P_04": {
+        "correct": 30,
+        "total": 100,
+        "pct": 30.0
+      },
+      "AW_H_01": {
+        "correct": 34,
+        "total": 102,
+        "pct": 33.3
+      },
+      "AW_A_04": {
+        "correct": 66,
+        "total": 68,
+        "pct": 97.1
+      },
+      "AW_H_04": {
+        "correct": 45,
+        "total": 91,
+        "pct": 49.5
+      },
+      "AW_P_02": {
+        "correct": 7,
+        "total": 40,
+        "pct": 17.5
+      },
+      "AW_ADV_04": {
+        "correct": 11,
+        "total": 50,
+        "pct": 22.0
+      }
+    }
+  },
+  "internvl3": {
+    "paraphrase_consistency": {
+      "AW_P_03": {
+        "consistent": 159,
+        "total": 188,
+        "pct": 84.6
+      },
+      "AW_P_05": {
+        "consistent": 210,
+        "total": 216,
+        "pct": 97.2
+      },
+      "AW_P_06": {
+        "consistent": 204,
+        "total": 214,
+        "pct": 95.3
+      },
+      "AW_P_07": {
+        "consistent": 93,
+        "total": 204,
+        "pct": 45.6
+      },
+      "AW_P_08": {
+        "consistent": 182,
+        "total": 214,
+        "pct": 85.0
+      },
+      "AW_A_01": {
+        "consistent": 203,
+        "total": 212,
+        "pct": 95.8
+      },
+      "AW_A_02": {
+        "consistent": 154,
+        "total": 168,
+        "pct": 91.7
+      },
+      "AW_A_03": {
+        "consistent": 177,
+        "total": 216,
+        "pct": 81.9
+      },
+      "AW_A_06": {
+        "consistent": 83,
+        "total": 84,
+        "pct": 98.8
+      },
+      "AW_H_03": {
+        "consistent": 185,
+        "total": 202,
+        "pct": 91.6
+      },
+      "AW_H_05": {
+        "consistent": 175,
+        "total": 182,
+        "pct": 96.2
+      },
+      "AW_H_06": {
+        "consistent": 125,
+        "total": 186,
+        "pct": 67.2
+      },
+      "AW_S_01": {
+        "consistent": 207,
+        "total": 208,
+        "pct": 99.5
+      },
+      "AW_S_02": {
+        "consistent": 189,
+        "total": 198,
+        "pct": 95.5
+      },
+      "AW_S_04": {
+        "consistent": 196,
+        "total": 216,
+        "pct": 90.7
+      },
+      "AW_S_05": {
+        "consistent": 200,
+        "total": 208,
+        "pct": 96.2
+      },
+      "AW_ADV_01": {
+        "consistent": 185,
+        "total": 188,
+        "pct": 98.4
+      },
+      "AW_ADV_02": {
+        "consistent": 153,
+        "total": 188,
+        "pct": 81.4
+      },
+      "AW_ADV_03": {
+        "consistent": 192,
+        "total": 212,
+        "pct": 90.6
+      },
+      "AW_P_01": {
+        "consistent": 159,
+        "total": 174,
+        "pct": 91.4
+      },
+      "AW_P_04": {
+        "consistent": 170,
+        "total": 200,
+        "pct": 85.0
+      },
+      "AW_H_01": {
+        "consistent": 187,
+        "total": 204,
+        "pct": 91.7
+      },
+      "AW_A_04": {
+        "consistent": 132,
+        "total": 136,
+        "pct": 97.1
+      },
+      "AW_H_04": {
+        "consistent": 70,
+        "total": 182,
+        "pct": 38.5
+      },
+      "AW_P_02": {
+        "consistent": 75,
+        "total": 80,
+        "pct": 93.8
+      },
+      "AW_ADV_04": {
+        "consistent": 83,
+        "total": 100,
+        "pct": 83.0
+      }
+    },
+    "negation_accuracy": {
+      "AW_P_03": {
+        "correct": 32,
+        "total": 94,
+        "pct": 34.0
+      },
+      "AW_P_05": {
+        "correct": 99,
+        "total": 108,
+        "pct": 91.7
+      },
+      "AW_P_06": {
+        "correct": 57,
+        "total": 107,
+        "pct": 53.3
+      },
+      "AW_P_07": {
+        "correct": 97,
+        "total": 102,
+        "pct": 95.1
+      },
+      "AW_P_08": {
+        "correct": 51,
+        "total": 107,
+        "pct": 47.7
+      },
+      "AW_A_01": {
+        "correct": 35,
+        "total": 106,
+        "pct": 33.0
+      },
+      "AW_A_02": {
+        "correct": 35,
+        "total": 84,
+        "pct": 41.7
+      },
+      "AW_A_03": {
+        "correct": 67,
+        "total": 108,
+        "pct": 62.0
+      },
+      "AW_A_06": {
+        "correct": 26,
+        "total": 42,
+        "pct": 61.9
+      },
+      "AW_H_03": {
+        "correct": 98,
+        "total": 101,
+        "pct": 97.0
+      },
+      "AW_H_05": {
+        "correct": 57,
+        "total": 91,
+        "pct": 62.6
+      },
+      "AW_H_06": {
+        "correct": 3,
+        "total": 93,
+        "pct": 3.2
+      },
+      "AW_S_01": {
+        "correct": 65,
+        "total": 104,
+        "pct": 62.5
+      },
+      "AW_S_02": {
+        "correct": 16,
+        "total": 99,
+        "pct": 16.2
+      },
+      "AW_S_04": {
+        "correct": 75,
+        "total": 108,
+        "pct": 69.4
+      },
+      "AW_S_05": {
+        "correct": 56,
+        "total": 104,
+        "pct": 53.8
+      },
+      "AW_ADV_01": {
+        "correct": 86,
+        "total": 94,
+        "pct": 91.5
+      },
+      "AW_ADV_02": {
+        "correct": 27,
+        "total": 94,
+        "pct": 28.7
+      },
+      "AW_ADV_03": {
+        "correct": 33,
+        "total": 106,
+        "pct": 31.1
+      },
+      "AW_P_01": {
+        "correct": 42,
+        "total": 87,
+        "pct": 48.3
+      },
+      "AW_P_04": {
+        "correct": 60,
+        "total": 100,
+        "pct": 60.0
+      },
+      "AW_H_01": {
+        "correct": 47,
+        "total": 102,
+        "pct": 46.1
+      },
+      "AW_A_04": {
+        "correct": 65,
+        "total": 68,
+        "pct": 95.6
+      },
+      "AW_H_04": {
+        "correct": 39,
+        "total": 91,
+        "pct": 42.9
+      },
+      "AW_P_02": {
+        "correct": 10,
+        "total": 40,
+        "pct": 25.0
+      },
+      "AW_ADV_04": {
+        "correct": 1,
+        "total": 50,
+        "pct": 2.0
+      }
+    }
+  }
+}

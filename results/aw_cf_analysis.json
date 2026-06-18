@@ -1,0 +1,1622 @@
+{
+  "moondream": {
+    "n_pairs": 1398,
+    "n_flipped": 187,
+    "scs_overall": 13.4,
+    "directions": {
+      "both_correct": 323,
+      "both_wrong": 442,
+      "correct_to_wrong": 193,
+      "wrong_to_correct": 440
+    },
+    "scs_by_weather": {
+      "foggy": 16.7,
+      "rainy": 16.0,
+      "snowy": 11.6
+    },
+    "scs_by_q": {
+      "AW_ADV_01": {
+        "scs": 0.0,
+        "n": 69,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_ADV_02": {
+        "scs": 24.6,
+        "n": 57,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 36.8,
+          "rainy": 10.5,
+          "snowy": 26.3
+        }
+      },
+      "AW_ADV_03": {
+        "scs": 0.0,
+        "n": 72,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_ADV_04": {
+        "scs": 0.0,
+        "n": 2,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_A_01": {
+        "scs": 0.0,
+        "n": 63,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_A_02": {
+        "scs": 0.0,
+        "n": 56,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_A_03": {
+        "scs": 0.0,
+        "n": 65,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_A_04": {
+        "scs": 16.7,
+        "n": 6,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 33.3
+        }
+      },
+      "AW_A_06": {
+        "scs": 66.7,
+        "n": 27,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 66.7,
+          "rainy": 88.9,
+          "snowy": 44.4
+        }
+      },
+      "AW_H_01": {
+        "scs": 3.1,
+        "n": 64,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 4.2,
+          "rainy": 0.0,
+          "snowy": 4.2
+        }
+      },
+      "AW_H_03": {
+        "scs": 4.2,
+        "n": 72,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 4.2,
+          "rainy": 4.2,
+          "snowy": 4.2
+        }
+      },
+      "AW_H_04": {
+        "scs": 0.0,
+        "n": 48,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_H_05": {
+        "scs": 0.0,
+        "n": 51,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_H_06": {
+        "scs": 0.0,
+        "n": 72,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_P_01": {
+        "scs": 20.0,
+        "n": 60,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 20.0,
+          "rainy": 20.0,
+          "snowy": 20.0
+        }
+      },
+      "AW_P_02": {
+        "scs": 0.0,
+        "n": 27,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_P_03": {
+        "scs": 24.6,
+        "n": 57,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 36.8,
+          "rainy": 31.6,
+          "snowy": 5.3
+        }
+      },
+      "AW_P_04": {
+        "scs": 41.7,
+        "n": 12,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 100.0,
+          "rainy": 0.0,
+          "snowy": 40.0
+        }
+      },
+      "AW_P_05": {
+        "scs": 9.7,
+        "n": 72,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 12.5,
+          "rainy": 12.5,
+          "snowy": 4.2
+        }
+      },
+      "AW_P_06": {
+        "scs": 44.3,
+        "n": 70,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 41.7,
+          "rainy": 50.0,
+          "snowy": 40.9
+        }
+      },
+      "AW_P_07": {
+        "scs": 21.2,
+        "n": 66,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 25.0,
+          "rainy": 19.0,
+          "snowy": 19.0
+        }
+      },
+      "AW_P_08": {
+        "scs": 36.1,
+        "n": 72,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 58.3,
+          "rainy": 50.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_S_01": {
+        "scs": 9.7,
+        "n": 72,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 20.8,
+          "rainy": 4.2,
+          "snowy": 4.2
+        }
+      },
+      "AW_S_02": {
+        "scs": 13.7,
+        "n": 51,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 18.8,
+          "rainy": 11.8,
+          "snowy": 11.1
+        }
+      },
+      "AW_S_04": {
+        "scs": 0.0,
+        "n": 72,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_S_05": {
+        "scs": 60.5,
+        "n": 43,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 75.0,
+          "rainy": 92.9,
+          "snowy": 7.7
+        }
+      }
+    },
+    "cfc_stability": 53.5,
+    "snowy_sd_detail": {
+      "n_pairs": 568,
+      "n_flipped": 66,
+      "scs_overall": 11.6,
+      "snowy_source": "sd_v2",
+      "directions": {
+        "both_correct": 330,
+        "both_wrong": 172,
+        "correct_to_wrong": 29,
+        "wrong_to_correct": 37
+      },
+      "scs_by_q": {
+        "AW_P_03": 52.6,
+        "AW_P_05": 29.2,
+        "AW_P_06": 40.0,
+        "AW_P_08": 0.0,
+        "AW_A_01": 0.0,
+        "AW_A_02": 0.0,
+        "AW_A_03": 0.0,
+        "AW_A_04": 0.0,
+        "AW_A_05": 0.0,
+        "AW_A_06": 88.9,
+        "AW_H_01": 4.2,
+        "AW_H_02": 0.0,
+        "AW_H_03": 4.2,
+        "AW_H_04": 0.0,
+        "AW_H_06": 0.0,
+        "AW_S_01": 4.2,
+        "AW_S_02": 11.1,
+        "AW_S_04": 0.0,
+        "AW_S_05": 13.6,
+        "AW_ADV_01": 0.0,
+        "AW_ADV_02": 42.1,
+        "AW_ADV_03": 0.0,
+        "AW_BASE_01": 0.0,
+        "AW_BASE_02": 0.0,
+        "AW_P_01": 15.0,
+        "AW_P_07": 23.8,
+        "AW_P_04": 33.3,
+        "AW_H_05": 0.0,
+        "AW_P_02": 0.0,
+        "AW_S_03": 100.0,
+        "AW_ADV_04": 0.0
+      }
+    }
+  },
+  "paligemma": {
+    "n_pairs": 1438,
+    "n_flipped": 565,
+    "scs_overall": 39.3,
+    "directions": {
+      "both_correct": 593,
+      "both_wrong": 202,
+      "correct_to_wrong": 415,
+      "wrong_to_correct": 228
+    },
+    "scs_by_weather": {
+      "foggy": 39.6,
+      "rainy": 43.1,
+      "snowy": 36.3
+    },
+    "scs_by_q": {
+      "AW_ADV_01": {
+        "scs": 31.3,
+        "n": 67,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 42.9,
+          "rainy": 26.1,
+          "snowy": 26.1
+        }
+      },
+      "AW_ADV_02": {
+        "scs": 1.8,
+        "n": 57,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 5.3,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_ADV_03": {
+        "scs": 81.2,
+        "n": 69,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 71.4,
+          "rainy": 91.7,
+          "snowy": 79.2
+        }
+      },
+      "AW_ADV_04": {
+        "scs": 42.1,
+        "n": 19,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 71.4,
+          "rainy": 40.0,
+          "snowy": 14.3
+        }
+      },
+      "AW_A_01": {
+        "scs": 71.4,
+        "n": 63,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 41.2,
+          "rainy": 82.6,
+          "snowy": 82.6
+        }
+      },
+      "AW_A_02": {
+        "scs": 18.4,
+        "n": 38,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 7.7,
+          "rainy": 33.3,
+          "snowy": 21.1
+        }
+      },
+      "AW_A_03": {
+        "scs": 79.7,
+        "n": 64,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 61.1,
+          "rainy": 95.7,
+          "snowy": 78.3
+        }
+      },
+      "AW_A_04": {
+        "scs": 0.0,
+        "n": 2,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_A_06": {
+        "scs": 12.0,
+        "n": 25,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 14.3,
+          "rainy": 11.1,
+          "snowy": 11.1
+        }
+      },
+      "AW_H_01": {
+        "scs": 12.0,
+        "n": 50,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 17.6,
+          "rainy": 7.1,
+          "snowy": 10.5
+        }
+      },
+      "AW_H_03": {
+        "scs": 15.9,
+        "n": 69,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 28.6,
+          "rainy": 12.5,
+          "snowy": 8.3
+        }
+      },
+      "AW_H_04": {
+        "scs": 22.9,
+        "n": 48,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 20.8,
+          "rainy": 0.0,
+          "snowy": 25.0
+        }
+      },
+      "AW_H_05": {
+        "scs": 47.1,
+        "n": 68,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 5.0,
+          "rainy": 66.7,
+          "snowy": 62.5
+        }
+      },
+      "AW_H_06": {
+        "scs": 27.8,
+        "n": 72,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 25.0,
+          "rainy": 29.2,
+          "snowy": 29.2
+        }
+      },
+      "AW_P_01": {
+        "scs": 40.0,
+        "n": 60,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 65.0,
+          "rainy": 40.0,
+          "snowy": 15.0
+        }
+      },
+      "AW_P_02": {
+        "scs": 33.3,
+        "n": 27,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 44.4,
+          "rainy": 44.4,
+          "snowy": 11.1
+        }
+      },
+      "AW_P_03": {
+        "scs": 29.8,
+        "n": 57,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 42.1,
+          "rainy": 21.1,
+          "snowy": 26.3
+        }
+      },
+      "AW_P_04": {
+        "scs": 55.7,
+        "n": 61,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 77.3,
+          "rainy": 80.0,
+          "snowy": 20.8
+        }
+      },
+      "AW_P_05": {
+        "scs": 6.9,
+        "n": 72,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 8.3,
+          "rainy": 8.3,
+          "snowy": 4.2
+        }
+      },
+      "AW_P_06": {
+        "scs": 57.4,
+        "n": 68,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 27.3,
+          "rainy": 69.6,
+          "snowy": 73.9
+        }
+      },
+      "AW_P_07": {
+        "scs": 28.6,
+        "n": 56,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 25.0,
+          "rainy": 35.0,
+          "snowy": 25.0
+        }
+      },
+      "AW_P_08": {
+        "scs": 65.3,
+        "n": 72,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 58.3,
+          "rainy": 75.0,
+          "snowy": 62.5
+        }
+      },
+      "AW_S_01": {
+        "scs": 9.7,
+        "n": 72,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 20.8,
+          "rainy": 4.2,
+          "snowy": 4.2
+        }
+      },
+      "AW_S_02": {
+        "scs": 28.2,
+        "n": 39,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 30.0,
+          "rainy": 23.1,
+          "snowy": 31.2
+        }
+      },
+      "AW_S_04": {
+        "scs": 46.5,
+        "n": 71,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 82.6,
+          "rainy": 16.7,
+          "snowy": 41.7
+        }
+      },
+      "AW_S_05": {
+        "scs": 70.8,
+        "n": 72,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 79.2,
+          "rainy": 70.8,
+          "snowy": 62.5
+        }
+      }
+    },
+    "cfc_stability": 61.4,
+    "snowy_sd_detail": {
+      "n_pairs": 636,
+      "n_flipped": 231,
+      "scs_overall": 36.3,
+      "snowy_source": "sd_v2",
+      "directions": {
+        "both_correct": 234,
+        "both_wrong": 171,
+        "correct_to_wrong": 80,
+        "wrong_to_correct": 151
+      },
+      "scs_by_q": {
+        "AW_P_03": 26.3,
+        "AW_P_04": 16.7,
+        "AW_P_05": 33.3,
+        "AW_P_06": 66.7,
+        "AW_P_08": 4.2,
+        "AW_A_01": 47.8,
+        "AW_A_02": 20.0,
+        "AW_A_03": 73.9,
+        "AW_A_06": 11.1,
+        "AW_H_01": 25.0,
+        "AW_H_02": 20.8,
+        "AW_H_03": 33.3,
+        "AW_H_04": 20.8,
+        "AW_H_05": 83.3,
+        "AW_H_06": 25.0,
+        "AW_S_01": 4.2,
+        "AW_S_02": 36.4,
+        "AW_S_03": 16.7,
+        "AW_S_04": 41.7,
+        "AW_S_05": 0.0,
+        "AW_ADV_01": 56.5,
+        "AW_ADV_02": 5.3,
+        "AW_ADV_03": 91.7,
+        "AW_BASE_01": 79.2,
+        "AW_BASE_02": 91.7,
+        "AW_P_01": 15.0,
+        "AW_P_07": 35.0,
+        "AW_A_05": 0.0,
+        "AW_P_02": 44.4,
+        "AW_ADV_04": 14.3,
+        "AW_A_04": 0.0
+      }
+    }
+  },
+  "smolvlm": {
+    "n_pairs": 1555,
+    "n_flipped": 437,
+    "scs_overall": 28.1,
+    "directions": {
+      "both_correct": 663,
+      "both_wrong": 264,
+      "correct_to_wrong": 421,
+      "wrong_to_correct": 207
+    },
+    "scs_by_weather": {
+      "foggy": 32.2,
+      "rainy": 29.0,
+      "snowy": 26.6
+    },
+    "scs_by_q": {
+      "AW_ADV_01": {
+        "scs": 29.0,
+        "n": 69,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 65.2,
+          "rainy": 8.7,
+          "snowy": 13.0
+        }
+      },
+      "AW_ADV_02": {
+        "scs": 0.0,
+        "n": 57,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_ADV_03": {
+        "scs": 61.1,
+        "n": 72,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 54.2,
+          "rainy": 75.0,
+          "snowy": 54.2
+        }
+      },
+      "AW_ADV_04": {
+        "scs": 42.1,
+        "n": 19,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 42.9,
+          "rainy": 60.0,
+          "snowy": 28.6
+        }
+      },
+      "AW_A_01": {
+        "scs": 19.4,
+        "n": 72,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 4.2,
+          "rainy": 29.2,
+          "snowy": 25.0
+        }
+      },
+      "AW_A_02": {
+        "scs": 67.9,
+        "n": 56,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 62.5,
+          "rainy": 87.5,
+          "snowy": 66.7
+        }
+      },
+      "AW_A_03": {
+        "scs": 59.7,
+        "n": 72,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 58.3,
+          "rainy": 95.8,
+          "snowy": 25.0
+        }
+      },
+      "AW_A_04": {
+        "scs": 0.0,
+        "n": 6,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_A_06": {
+        "scs": 29.6,
+        "n": 27,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 22.2,
+          "rainy": 33.3,
+          "snowy": 33.3
+        }
+      },
+      "AW_H_01": {
+        "scs": 7.8,
+        "n": 64,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 20.8,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_H_03": {
+        "scs": 16.7,
+        "n": 72,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 20.8,
+          "rainy": 20.8,
+          "snowy": 8.3
+        }
+      },
+      "AW_H_04": {
+        "scs": 27.1,
+        "n": 48,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 50.0,
+          "rainy": 0.0,
+          "snowy": 4.2
+        }
+      },
+      "AW_H_05": {
+        "scs": 20.8,
+        "n": 72,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 25.0,
+          "snowy": 37.5
+        }
+      },
+      "AW_H_06": {
+        "scs": 36.1,
+        "n": 72,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 33.3,
+          "rainy": 37.5,
+          "snowy": 37.5
+        }
+      },
+      "AW_P_01": {
+        "scs": 25.0,
+        "n": 60,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 25.0,
+          "rainy": 25.0,
+          "snowy": 25.0
+        }
+      },
+      "AW_P_02": {
+        "scs": 0.0,
+        "n": 27,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_P_03": {
+        "scs": 15.8,
+        "n": 57,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 31.6,
+          "rainy": 10.5,
+          "snowy": 5.3
+        }
+      },
+      "AW_P_04": {
+        "scs": 14.3,
+        "n": 63,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 16.7,
+          "rainy": 6.7,
+          "snowy": 16.7
+        }
+      },
+      "AW_P_05": {
+        "scs": 4.2,
+        "n": 72,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 12.5,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_P_06": {
+        "scs": 0.0,
+        "n": 72,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_P_07": {
+        "scs": 0.0,
+        "n": 66,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_P_08": {
+        "scs": 75.0,
+        "n": 72,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 75.0,
+          "rainy": 91.7,
+          "snowy": 58.3
+        }
+      },
+      "AW_S_01": {
+        "scs": 6.9,
+        "n": 72,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 16.7,
+          "rainy": 4.2,
+          "snowy": 0.0
+        }
+      },
+      "AW_S_02": {
+        "scs": 8.3,
+        "n": 72,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 8.3,
+          "rainy": 8.3,
+          "snowy": 8.3
+        }
+      },
+      "AW_S_04": {
+        "scs": 55.6,
+        "n": 72,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 83.3,
+          "rainy": 20.8,
+          "snowy": 62.5
+        }
+      },
+      "AW_S_05": {
+        "scs": 69.4,
+        "n": 72,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 79.2,
+          "rainy": 70.8,
+          "snowy": 58.3
+        }
+      }
+    },
+    "cfc_stability": 71.1,
+    "snowy_sd_detail": {
+      "n_pairs": 657,
+      "n_flipped": 175,
+      "scs_overall": 26.6,
+      "snowy_source": "sd_v2",
+      "directions": {
+        "both_correct": 247,
+        "both_wrong": 235,
+        "correct_to_wrong": 44,
+        "wrong_to_correct": 131
+      },
+      "scs_by_q": {
+        "AW_P_03": 21.1,
+        "AW_P_04": 16.7,
+        "AW_P_05": 25.0,
+        "AW_P_06": 0.0,
+        "AW_P_08": 8.3,
+        "AW_A_01": 16.7,
+        "AW_A_02": 79.2,
+        "AW_A_03": 4.2,
+        "AW_A_04": 0.0,
+        "AW_A_05": 78.3,
+        "AW_A_06": 33.3,
+        "AW_H_01": 0.0,
+        "AW_H_02": 58.3,
+        "AW_H_03": 12.5,
+        "AW_H_04": 0.0,
+        "AW_H_05": 83.3,
+        "AW_H_06": 29.2,
+        "AW_S_01": 4.2,
+        "AW_S_02": 8.3,
+        "AW_S_03": 0.0,
+        "AW_S_04": 8.3,
+        "AW_S_05": 4.2,
+        "AW_ADV_01": 13.0,
+        "AW_ADV_02": 0.0,
+        "AW_ADV_03": 54.2,
+        "AW_BASE_01": 75.0,
+        "AW_BASE_02": 83.3,
+        "AW_P_01": 35.0,
+        "AW_P_07": 0.0,
+        "AW_P_02": 0.0,
+        "AW_ADV_04": 42.9
+      }
+    }
+  },
+  "llava_ov": {
+    "n_pairs": 1555,
+    "n_flipped": 507,
+    "scs_overall": 32.6,
+    "directions": {
+      "both_correct": 905,
+      "both_wrong": 128,
+      "correct_to_wrong": 346,
+      "wrong_to_correct": 176
+    },
+    "scs_by_weather": {
+      "foggy": 37.3,
+      "rainy": 36.3,
+      "snowy": 32.0
+    },
+    "scs_by_q": {
+      "AW_ADV_01": {
+        "scs": 1.4,
+        "n": 69,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 4.3,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_ADV_02": {
+        "scs": 0.0,
+        "n": 57,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_ADV_03": {
+        "scs": 22.2,
+        "n": 72,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 37.5,
+          "rainy": 29.2,
+          "snowy": 0.0
+        }
+      },
+      "AW_ADV_04": {
+        "scs": 15.8,
+        "n": 19,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 14.3,
+          "rainy": 20.0,
+          "snowy": 14.3
+        }
+      },
+      "AW_A_01": {
+        "scs": 65.3,
+        "n": 72,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 70.8,
+          "rainy": 75.0,
+          "snowy": 50.0
+        }
+      },
+      "AW_A_02": {
+        "scs": 69.6,
+        "n": 56,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 70.8,
+          "rainy": 87.5,
+          "snowy": 62.5
+        }
+      },
+      "AW_A_03": {
+        "scs": 50.0,
+        "n": 72,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 25.0,
+          "rainy": 95.8,
+          "snowy": 29.2
+        }
+      },
+      "AW_A_04": {
+        "scs": 0.0,
+        "n": 6,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_A_06": {
+        "scs": 0.0,
+        "n": 27,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_H_01": {
+        "scs": 60.9,
+        "n": 64,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 87.5,
+          "rainy": 62.5,
+          "snowy": 33.3
+        }
+      },
+      "AW_H_03": {
+        "scs": 6.9,
+        "n": 72,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 4.2,
+          "rainy": 8.3,
+          "snowy": 8.3
+        }
+      },
+      "AW_H_04": {
+        "scs": 47.9,
+        "n": 48,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 58.3,
+          "rainy": 0.0,
+          "snowy": 37.5
+        }
+      },
+      "AW_H_05": {
+        "scs": 65.3,
+        "n": 72,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 45.8,
+          "rainy": 87.5,
+          "snowy": 62.5
+        }
+      },
+      "AW_H_06": {
+        "scs": 48.6,
+        "n": 72,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 41.7,
+          "rainy": 83.3,
+          "snowy": 20.8
+        }
+      },
+      "AW_P_01": {
+        "scs": 36.7,
+        "n": 60,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 40.0,
+          "rainy": 40.0,
+          "snowy": 30.0
+        }
+      },
+      "AW_P_02": {
+        "scs": 33.3,
+        "n": 27,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 33.3,
+          "rainy": 33.3,
+          "snowy": 33.3
+        }
+      },
+      "AW_P_03": {
+        "scs": 10.5,
+        "n": 57,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 15.8,
+          "rainy": 10.5,
+          "snowy": 5.3
+        }
+      },
+      "AW_P_04": {
+        "scs": 58.7,
+        "n": 63,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 75.0,
+          "rainy": 73.3,
+          "snowy": 33.3
+        }
+      },
+      "AW_P_05": {
+        "scs": 8.3,
+        "n": 72,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 12.5,
+          "rainy": 4.2,
+          "snowy": 8.3
+        }
+      },
+      "AW_P_06": {
+        "scs": 56.9,
+        "n": 72,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 62.5,
+          "rainy": 50.0,
+          "snowy": 58.3
+        }
+      },
+      "AW_P_07": {
+        "scs": 19.7,
+        "n": 66,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 25.0,
+          "rainy": 19.0,
+          "snowy": 14.3
+        }
+      },
+      "AW_P_08": {
+        "scs": 9.7,
+        "n": 72,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 25.0,
+          "rainy": 4.2,
+          "snowy": 0.0
+        }
+      },
+      "AW_S_01": {
+        "scs": 5.6,
+        "n": 72,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 16.7,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_S_02": {
+        "scs": 0.0,
+        "n": 72,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_S_04": {
+        "scs": 88.9,
+        "n": 72,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 87.5,
+          "rainy": 91.7,
+          "snowy": 87.5
+        }
+      },
+      "AW_S_05": {
+        "scs": 9.7,
+        "n": 72,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 29.2,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      }
+    },
+    "cfc_stability": 62.7,
+    "snowy_sd_detail": {
+      "n_pairs": 657,
+      "n_flipped": 210,
+      "scs_overall": 32.0,
+      "snowy_source": "sd_v2",
+      "directions": {
+        "both_correct": 295,
+        "both_wrong": 152,
+        "correct_to_wrong": 76,
+        "wrong_to_correct": 134
+      },
+      "scs_by_q": {
+        "AW_P_03": 15.8,
+        "AW_P_04": 37.5,
+        "AW_P_05": 29.2,
+        "AW_P_06": 50.0,
+        "AW_P_08": 0.0,
+        "AW_A_01": 91.7,
+        "AW_A_02": 75.0,
+        "AW_A_03": 16.7,
+        "AW_A_04": 0.0,
+        "AW_A_05": 0.0,
+        "AW_A_06": 11.1,
+        "AW_H_01": 41.7,
+        "AW_H_02": 25.0,
+        "AW_H_03": 16.7,
+        "AW_H_04": 33.3,
+        "AW_H_05": 100.0,
+        "AW_H_06": 20.8,
+        "AW_S_01": 0.0,
+        "AW_S_02": 12.5,
+        "AW_S_03": 16.7,
+        "AW_S_04": 70.8,
+        "AW_S_05": 8.3,
+        "AW_ADV_01": 0.0,
+        "AW_ADV_02": 5.3,
+        "AW_ADV_03": 4.2,
+        "AW_BASE_01": 41.7,
+        "AW_BASE_02": 95.8,
+        "AW_P_01": 50.0,
+        "AW_P_07": 9.5,
+        "AW_P_02": 33.3,
+        "AW_ADV_04": 14.3
+      }
+    }
+  },
+  "internvl3": {
+    "n_pairs": 1555,
+    "n_flipped": 434,
+    "scs_overall": 27.9,
+    "directions": {
+      "both_correct": 894,
+      "both_wrong": 86,
+      "correct_to_wrong": 428,
+      "wrong_to_correct": 147
+    },
+    "scs_by_weather": {
+      "foggy": 30.9,
+      "rainy": 31.5,
+      "snowy": 28.8
+    },
+    "scs_by_q": {
+      "AW_ADV_01": {
+        "scs": 0.0,
+        "n": 69,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_ADV_02": {
+        "scs": 21.1,
+        "n": 57,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 42.1,
+          "rainy": 15.8,
+          "snowy": 5.3
+        }
+      },
+      "AW_ADV_03": {
+        "scs": 41.7,
+        "n": 72,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 33.3,
+          "rainy": 50.0,
+          "snowy": 41.7
+        }
+      },
+      "AW_ADV_04": {
+        "scs": 26.3,
+        "n": 19,
+        "q_type": "adversarial",
+        "by_weather": {
+          "foggy": 71.4,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_A_01": {
+        "scs": 40.3,
+        "n": 72,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 20.8,
+          "rainy": 54.2,
+          "snowy": 45.8
+        }
+      },
+      "AW_A_02": {
+        "scs": 53.6,
+        "n": 56,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 50.0,
+          "rainy": 75.0,
+          "snowy": 50.0
+        }
+      },
+      "AW_A_03": {
+        "scs": 68.1,
+        "n": 72,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 50.0,
+          "rainy": 100.0,
+          "snowy": 54.2
+        }
+      },
+      "AW_A_04": {
+        "scs": 16.7,
+        "n": 6,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 33.3
+        }
+      },
+      "AW_A_06": {
+        "scs": 0.0,
+        "n": 27,
+        "q_type": "action",
+        "by_weather": {
+          "foggy": 0.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_H_01": {
+        "scs": 3.1,
+        "n": 64,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 4.2,
+          "rainy": 0.0,
+          "snowy": 4.2
+        }
+      },
+      "AW_H_03": {
+        "scs": 5.6,
+        "n": 72,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 12.5,
+          "rainy": 4.2,
+          "snowy": 0.0
+        }
+      },
+      "AW_H_04": {
+        "scs": 22.9,
+        "n": 48,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 33.3,
+          "rainy": 0.0,
+          "snowy": 12.5
+        }
+      },
+      "AW_H_05": {
+        "scs": 77.8,
+        "n": 72,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 66.7,
+          "rainy": 83.3,
+          "snowy": 83.3
+        }
+      },
+      "AW_H_06": {
+        "scs": 61.1,
+        "n": 72,
+        "q_type": "hazard",
+        "by_weather": {
+          "foggy": 41.7,
+          "rainy": 79.2,
+          "snowy": 62.5
+        }
+      },
+      "AW_P_01": {
+        "scs": 8.3,
+        "n": 60,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 25.0,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_P_02": {
+        "scs": 29.6,
+        "n": 27,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 44.4,
+          "rainy": 33.3,
+          "snowy": 11.1
+        }
+      },
+      "AW_P_03": {
+        "scs": 17.5,
+        "n": 57,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 31.6,
+          "rainy": 15.8,
+          "snowy": 5.3
+        }
+      },
+      "AW_P_04": {
+        "scs": 30.2,
+        "n": 63,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 50.0,
+          "rainy": 46.7,
+          "snowy": 0.0
+        }
+      },
+      "AW_P_05": {
+        "scs": 2.8,
+        "n": 72,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 8.3,
+          "rainy": 0.0,
+          "snowy": 0.0
+        }
+      },
+      "AW_P_06": {
+        "scs": 13.9,
+        "n": 72,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 33.3,
+          "rainy": 8.3,
+          "snowy": 0.0
+        }
+      },
+      "AW_P_07": {
+        "scs": 15.2,
+        "n": 66,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 16.7,
+          "rainy": 14.3,
+          "snowy": 14.3
+        }
+      },
+      "AW_P_08": {
+        "scs": 22.2,
+        "n": 72,
+        "q_type": "perception",
+        "by_weather": {
+          "foggy": 20.8,
+          "rainy": 20.8,
+          "snowy": 25.0
+        }
+      },
+      "AW_S_01": {
+        "scs": 4.2,
+        "n": 72,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 8.3,
+          "rainy": 0.0,
+          "snowy": 4.2
+        }
+      },
+      "AW_S_02": {
+        "scs": 6.9,
+        "n": 72,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 12.5,
+          "rainy": 4.2,
+          "snowy": 4.2
+        }
+      },
+      "AW_S_04": {
+        "scs": 81.9,
+        "n": 72,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 83.3,
+          "rainy": 91.7,
+          "snowy": 70.8
+        }
+      },
+      "AW_S_05": {
+        "scs": 19.4,
+        "n": 72,
+        "q_type": "scene",
+        "by_weather": {
+          "foggy": 33.3,
+          "rainy": 25.0,
+          "snowy": 0.0
+        }
+      }
+    },
+    "cfc_stability": 47.5,
+    "snowy_sd_detail": {
+      "n_pairs": 657,
+      "n_flipped": 189,
+      "scs_overall": 28.8,
+      "snowy_source": "sd_v2",
+      "directions": {
+        "both_correct": 289,
+        "both_wrong": 179,
+        "correct_to_wrong": 61,
+        "wrong_to_correct": 128
+      },
+      "scs_by_q": {
+        "AW_P_03": 31.6,
+        "AW_P_04": 4.2,
+        "AW_P_05": 25.0,
+        "AW_P_06": 8.3,
+        "AW_P_08": 4.2,
+        "AW_A_01": 45.8,
+        "AW_A_02": 54.2,
+        "AW_A_03": 41.7,
+        "AW_A_04": 33.3,
+        "AW_A_05": 43.5,
+        "AW_A_06": 0.0,
+        "AW_H_01": 12.5,
+        "AW_H_02": 50.0,
+        "AW_H_03": 25.0,
+        "AW_H_04": 29.2,
+        "AW_H_05": 87.5,
+        "AW_H_06": 33.3,
+        "AW_S_01": 0.0,
+        "AW_S_02": 16.7,
+        "AW_S_03": 20.8,
+        "AW_S_04": 4.2,
+        "AW_S_05": 8.3,
+        "AW_ADV_01": 0.0,
+        "AW_ADV_02": 36.8,
+        "AW_ADV_03": 50.0,
+        "AW_BASE_01": 16.7,
+        "AW_BASE_02": 95.8,
+        "AW_P_01": 20.0,
+        "AW_P_07": 23.8,
+        "AW_P_02": 44.4,
+        "AW_ADV_04": 0.0
+      }
+    }
+  }
+}
