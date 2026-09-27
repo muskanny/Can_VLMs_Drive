@@ -3,7 +3,7 @@
 ## ACCV 2026
 
 <!-- TODO: replace with the final author list exactly as on the camera-ready paper -->
-Author One, Author Two, Shankar Gangisetty, ...
+Authors : Muskan Singh, Shankar Gangishetty
 
 <!-- TODO: fill in real links once available; remove any that do not apply -->
 - [Paper (arXiv)](https://arxiv.org/abs/XXXX.XXXXX)
